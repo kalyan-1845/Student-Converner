@@ -579,3 +579,291 @@
    *   *(Opt 1: We hire a 'Campus Ambassador' at the second college and pay them a cut).*
    *   *(Opt 2: We run localized Instagram ads targeted within a 1km radius of the new college).*
    *   *(Opt 3: We open the platform up to become a city-wide student network).*
+
+---
+
+## 🎭 Scenario 9: AgriTech (The AI Crop Disease Drone)
+
+**You Pitch:** *"I am building a drone that flies over farms, takes photos, and uses AI to tell the farmer if the crops have a disease."*
+
+**Simple Questions (Level 1):**
+1. Who flies the drone? 
+   *   *(Opt 1: The drone flies itself autonomously using GPS).*
+   *   *(Opt 2: The farmer flies it using a remote control).*
+   *   *(Opt 3: We provide a certified pilot as a service).*
+2. Does the drone also spray pesticides, or just take photos? 
+   *   *(Opt 1: It only takes photos to keep the weight down).*
+   *   *(Opt 2: It has a small 5-liter tank for targeted spraying).*
+   *   *(Opt 3: It just drops sensors into the soil).*
+3. How long does the battery last? 
+   *   *(Opt 1: 30 minutes per battery).*
+   *   *(Opt 2: We use tethered drones with a power cable attached to a generator).*
+   *   *(Opt 3: It lands on a solar charging pad in the field).*
+4. How much does it cost the farmer? 
+   *   *(Opt 1: They buy the drone for 1 Lakh).*
+   *   *(Opt 2: We charge 500 Rupees per acre scanned).*
+   *   *(Opt 3: The drone is free, but they pay a monthly subscription for the AI app).*
+5. How heavy is the drone? 
+   *   *(Opt 1: Under 2 Kgs so it doesn't require a heavy pilot license).*
+   *   *(Opt 2: 25 Kgs for the heavy spraying model).*
+   *   *(Opt 3: It's a micro-drone, size of a bird).*
+
+**Medium Questions (Level 2):**
+6. Rural farmers are notoriously poor. How do they afford this? 
+   *   *(Opt 1: We don't sell to farmers; we sell to rich landowners).*
+   *   *(Opt 2: We partner with banks to offer them micro-loans for the drone).*
+   *   *(Opt 3: The government subsidizes 80% of the cost for AgriTech).*
+7. What if the drone crashes into a tree and breaks? 
+   *   *(Opt 1: We provide a 1-year free replacement warranty).*
+   *   *(Opt 2: It has 360-degree obstacle avoidance sensors).*
+   *   *(Opt 3: The farmer pays for insurance).*
+8. Do farmers have strong enough internet in the fields to use your AI app? 
+   *   *(Opt 1: The AI runs completely offline on the drone's internal chip).*
+   *   *(Opt 2: It syncs via Bluetooth to their phone when they go back home).*
+   *   *(Opt 3: It uses satellite internet).*
+9. How does the AI accurately detect a tiny bug on a leaf from 50 feet in the air? 
+   *   *(Opt 1: We use hyper-spectral cameras, not normal cameras).*
+   *   *(Opt 2: The drone flies very low, just 5 feet above the plants).*
+   *   *(Opt 3: It only detects discoloration in the leaves, not the actual bugs).*
+10. Does it require a commercial pilot license to operate? 
+   *   *(Opt 1: Yes, which is why we provide the pilot).*
+   *   *(Opt 2: No, nano-drones under 250 grams don't need a license).*
+   *   *(Opt 3: We handle all the DGCA paperwork for the farmer).*
+
+**Hard Questions (Level 3):**
+11. **The MVP:** Building a custom drone costs lakhs. How do you test this today? 
+   *   *(Opt 1: Buy a cheap DJI drone from Amazon and tape a smartphone to it).*
+   *   *(Opt 2: Have a farmer walk the field and take photos with their phone first).*
+   *   *(Opt 3: License drone footage from YouTube and run my AI on it).*
+12. **Regulations:** Drone laws in India (DGCA) are incredibly strict. How do you fly legally? 
+   *   *(Opt 1: We only operate in 'Green Zones' where permission is not needed).*
+   *   *(Opt 2: We use Digital Sky API for instant flight approvals).*
+   *   *(Opt 3: We partner with the State Agriculture Department).*
+13. **Competition:** Why not just put cameras on the front of a tractor? 
+   *   *(Opt 1: Tractors compress the soil and damage crops; drones don't touch the ground).*
+   *   *(Opt 2: Tractors are too slow; a drone scans 10 acres in 10 minutes).*
+   *   *(Opt 3: Tractors can't see the top of the canopy on tall crops like sugarcane).*
+14. **Liability:** If the AI misdiagnoses the disease, and the farmer sprays the wrong chemical and kills his entire crop, who gets sued? 
+   *   *(Opt 1: We have a massive legal waiver that the farmer must sign).*
+   *   *(Opt 2: We don't recommend chemicals; we just highlight the sick area).*
+   *   *(Opt 3: We have 5 Crore in commercial liability insurance).*
+15. **Repair Network:** If a drone breaks in a remote village, who fixes it? 
+   *   *(Opt 1: We train local mechanics in the village to do basic repairs).*
+   *   *(Opt 2: We ship them a replacement via courier within 24 hours).*
+   *   *(Opt 3: It is entirely modular; they just snap a new arm on).*
+
+---
+
+## 🎭 Scenario 10: Social Media (The Anonymous College Confession App)
+
+**You Pitch:** *"I am building an app exclusively for our college where students can post anonymous confessions and gossips without getting caught."*
+
+**Simple Questions (Level 1):**
+1. Is the app completely free to use? 
+   *   *(Opt 1: Yes, 100% free).*
+   *   *(Opt 2: Free to read, but you pay 10 Rs to post a confession).*
+   *   *(Opt 3: Free, but you pay to see who 'liked' your post).*
+2. How do you sign up? 
+   *   *(Opt 1: With your college .edu email address).*
+   *   *(Opt 2: No sign up needed, just download and post).*
+   *   *(Opt 3: You have to be invited by a current user).*
+3. Is it an app or a website? 
+   *   *(Opt 1: An Android and iOS App).*
+   *   *(Opt 2: A Telegram Bot).*
+   *   *(Opt 3: Just a website, so people don't have to download anything).*
+4. Can you post photos, or just text? 
+   *   *(Opt 1: Text only, to prevent inappropriate images).*
+   *   *(Opt 2: Both photos and videos).*
+   *   *(Opt 3: Photos, but they disappear after 24 hours like Snapchat).*
+5. Are professors allowed to join the app? 
+   *   *(Opt 1: No, we block faculty email addresses).*
+   *   *(Opt 2: Yes, they can join but they can't post).*
+   *   *(Opt 3: We don't know who anyone is, so anyone can join).*
+
+**Medium Questions (Level 2):**
+6. How do you stop cyberbullying and harassment? 
+   *   *(Opt 1: We use AI to automatically block curse words and hate speech).*
+   *   *(Opt 2: If a post gets 5 'reports', it is automatically deleted).*
+   *   *(Opt 3: We manually approve every single post before it goes live).*
+7. How do you make money if the app is free? 
+   *   *(Opt 1: We show targeted ads for local cafes and events).*
+   *   *(Opt 2: We sell anonymous, aggregated mood data to the college).*
+   *   *(Opt 3: We charge users to 'boost' their confession to the top of the feed).*
+8. How do you prove users actually belong to our college? 
+   *   *(Opt 1: Geo-fencing; the app only works if your GPS is inside the campus).*
+   *   *(Opt 2: They must upload a photo of their ID card to an AI verifier).*
+   *   *(Opt 3: The invite-only system naturally restricts it).*
+9. What if someone posts illegal content (like exam paper leaks)? 
+   *   *(Opt 1: The AI flags it immediately and bans the device).*
+   *   *(Opt 2: We have a 24/7 human moderation team).*
+   *   *(Opt 3: We report it to the authorities).*
+10. What are your server costs for hosting thousands of posts? 
+   *   *(Opt 1: Text takes up almost zero space; it's very cheap).*
+   *   *(Opt 2: We use Firebase free tier for the first 10,000 users).*
+   *   *(Opt 3: We delete all posts after 7 days to save database space).*
+
+**Hard Questions (Level 3):**
+11. **The MVP:** Building a social network takes months. How do you test this today? 
+   *   *(Opt 1: I will start an anonymous Instagram page and let people DM me confessions).*
+   *   *(Opt 2: Put a physical 'confession box' in the canteen).*
+   *   *(Opt 3: Create a Google Form linked to a public spreadsheet).*
+12. **Legal Liability:** If someone posts a fake rumor ruining a student's life, can the victim sue you for defamation? 
+   *   *(Opt 1: We operate as an 'intermediary' under the IT Act, so we are protected).*
+   *   *(Opt 2: We do not store IP addresses, so we can't be forced to reveal them).*
+   *   *(Opt 3: We have strict terms of service that shifts liability to the user).*
+13. **The Chicken and Egg:** Social media is boring with no users. How do you get the first 500 people to join? 
+   *   *(Opt 1: I will fake the first 100 posts myself to make it look active).*
+   *   *(Opt 2: I will hire the college's most popular students to promote it).*
+   *   *(Opt 3: I will run a viral marketing campaign by dropping flyers in classrooms).*
+14. **College Pushback:** What do you do when the Principal bans the app and blocks it on the college Wi-Fi? 
+   *   *(Opt 1: We build a VPN directly into the app).*
+   *   *(Opt 2: We rebrand it as a 'Mental Health Support' app to get administration approval).*
+   *   *(Opt 3: We move to peer-to-peer bluetooth sharing).*
+15. **Retention:** Once the novelty wears off, why would students keep using it every day? 
+   *   *(Opt 1: We will introduce a 'Crush Finder' feature for Valentine's Day).*
+   *   *(Opt 2: Gamification; users earn 'karma' points for good confessions).*
+   *   *(Opt 3: We add a marketplace feature to buy/sell old textbooks).*
+
+---
+
+## 🎭 Scenario 11: TravelTech (The Student Carpooling App)
+
+**You Pitch:** *"I am building a carpooling app where students who own bikes/cars can give rides to other students going to the same college."*
+
+**Simple Questions (Level 1):**
+1. Who is driving? 
+   *   *(Opt 1: Only 3rd and 4th-year students who have vehicles).*
+   *   *(Opt 2: Alumni who work near the college).*
+   *   *(Opt 3: Faculty members driving to campus).*
+2. How is payment handled? 
+   *   *(Opt 1: The passenger pays the driver directly via UPI).*
+   *   *(Opt 2: The app deducts it from a prepaid wallet).*
+   *   *(Opt 3: They share the exact petrol cost, not a taxi fare).*
+3. Can girls request strictly female drivers for safety? 
+   *   *(Opt 1: Yes, there is a 'Women Only' toggle switch).*
+   *   *(Opt 2: We have verified female-only carpools).*
+   *   *(Opt 3: All riders and drivers are verified students, making it safer than Uber).*
+4. Are bikes allowed, or just cars? 
+   *   *(Opt 1: Bikes, scooters, and cars are all allowed).*
+   *   *(Opt 2: Only cars, for safety and weather reasons).*
+   *   *(Opt 3: Only electric vehicles to promote green tech).*
+5. What is the platform's commission rate? 
+   *   *(Opt 1: We charge zero commission; we run ads instead).*
+   *   *(Opt 2: We take a flat 5 Rupees per ride).*
+   *   *(Opt 3: We charge the driver a 100 Rs monthly subscription).*
+
+**Medium Questions (Level 2):**
+6. What happens if the driver oversleeps and doesn't show up? 
+   *   *(Opt 1: They get banned from the app after 3 offenses).*
+   *   *(Opt 2: We immediately hail an Uber for the passenger and bill the driver).*
+   *   *(Opt 3: We have a backup pool of drivers on standby).*
+7. What happens if there is an accident on the way to college? 
+   *   *(Opt 1: The driver's personal vehicle insurance covers it).*
+   *   *(Opt 2: We provide a micro-insurance policy covering the ride).*
+   *   *(Opt 3: We have a legal waiver; ride at your own risk).*
+8. How do you verify the driver's license? 
+   *   *(Opt 1: They must upload a photo of their license to our AI verifier).*
+   *   *(Opt 2: We manually check licenses at a desk in the college).*
+   *   *(Opt 3: We integrate with the government Digilocker API).*
+9. What if the passenger reaches college and refuses to pay? 
+   *   *(Opt 1: They must pre-pay into the escrow wallet before getting in the car).*
+   *   *(Opt 2: The driver rates them 1-star and they get banned).*
+   *   *(Opt 3: The college administration helps us enforce discipline).*
+10. Do you verify the condition of the vehicles? 
+   *   *(Opt 1: We require a valid Pollution Under Control (PUC) certificate).*
+   *   *(Opt 2: Passengers rate the cleanliness of the vehicle).*
+   *   *(Opt 3: No, that is too much friction for onboarding).*
+
+**Hard Questions (Level 3):**
+11. **The MVP:** App development takes months. How do you test this tomorrow? 
+   *   *(Opt 1: Create a WhatsApp group where people post their routes and timings).*
+   *   *(Opt 2: Put a physical whiteboard in the parking lot).*
+   *   *(Opt 3: Use a simple Google Sheet where drivers list their empty seats).*
+12. **Competition:** Why wouldn't students just use Rapido or Uber Moto? 
+   *   *(Opt 1: Our app is 50% cheaper because we don't have commercial taxes).*
+   *   *(Opt 2: It's safer because you know the driver is from your own college).*
+   *   *(Opt 3: It builds a social network; you meet new friends).*
+13. **Laws:** In India, it is illegal to use a private (white number plate) vehicle for commercial taxi services. How do you avoid the police? 
+   *   *(Opt 1: We don't charge taxi fares; we strictly call it 'fuel cost sharing').*
+   *   *(Opt 2: We operate only within a 5km radius to avoid traffic police).*
+   *   *(Opt 3: We limit drivers to a maximum of 2 rides per day).*
+14. **Liability:** If a driver kidnaps or harasses a passenger, does the college get sued? 
+   *   *(Opt 1: We are an independent company, not affiliated with the college).*
+   *   *(Opt 2: We have an SOS button that alerts the police and parents instantly).*
+   *   *(Opt 3: We track the GPS of every single ride in real-time).*
+15. **Critical Mass:** You need drivers to attract riders, and riders to attract drivers. How do you launch? 
+   *   *(Opt 1: We will pay 20 seniors out of pocket to act as guaranteed drivers for week 1).*
+   *   *(Opt 2: We offer free parking passes at college for anyone who signs up as a driver).*
+   *   *(Opt 3: We launch only for one specific hostel to build density).*
+
+---
+
+## 🎭 Scenario 12: FashionTech (The AR Clothing Try-On App)
+
+**You Pitch:** *"I am building an Augmented Reality (AR) app where you can see exactly how a T-shirt looks on your body using your phone camera before you buy it."*
+
+**Simple Questions (Level 1):**
+1. Who is the target audience? 
+   *   *(Opt 1: Teenagers who buy fast fashion online).*
+   *   *(Opt 2: High-end luxury shoppers who want custom fits).*
+   *   *(Opt 3: Clothing brands that want to reduce their return rates).*
+2. Does the user need a high-end phone with a LiDAR scanner? 
+   *   *(Opt 1: No, it works on any standard smartphone camera).*
+   *   *(Opt 2: Yes, it requires an iPhone Pro for accurate depth mapping).*
+   *   *(Opt 3: It works via a smart mirror in the actual physical store).*
+3. Which clothes can you try on? 
+   *   *(Opt 1: We are partnering with Zara and H&M for their catalogs).*
+   *   *(Opt 2: Only our own custom-made blank T-shirts).*
+   *   *(Opt 3: Any clothing if you upload a picture of it).*
+4. What is the cost to the user? 
+   *   *(Opt 1: 100% free for the user; brands pay us).*
+   *   *(Opt 2: 99 Rs a month for unlimited try-ons).*
+   *   *(Opt 3: We charge a 5% affiliate fee when they buy the clothes).*
+5. How does the camera see the back of the clothes? 
+   *   *(Opt 1: You spin around while holding the phone).*
+   *   *(Opt 2: You set the phone on a table and do a 360 turn).*
+   *   *(Opt 3: We use AI to hallucinate and guess what the back looks like).*
+
+**Medium Questions (Level 2):**
+6. How do you get the 3D models of the clothes into the app? 
+   *   *(Opt 1: Brands must send us their CAD (design) files).*
+   *   *(Opt 2: We physically photograph the clothes from 100 angles (Photogrammetry)).*
+   *   *(Opt 3: We use AI to convert standard 2D website photos into 3D models).*
+7. Does the app accurately measure body size (S, M, L)? 
+   *   *(Opt 1: Yes, the AI estimates your measurements based on your height).*
+   *   *(Opt 2: No, it's just a visual overlay; you still have to guess your size).*
+   *   *(Opt 3: The user has to manually input their chest and waist measurements).*
+8. What happens if the lighting in the user's bedroom is terrible? 
+   *   *(Opt 1: The AR model will look fake and float over their body).*
+   *   *(Opt 2: The app forces them to turn on their flash or move to a window).*
+   *   *(Opt 3: Our AI automatically color-corrects the clothing to match the room).*
+9. What if the cloth looks great in AR, but doesn't fit in real life? 
+   *   *(Opt 1: We offer free returns).*
+   *   *(Opt 2: We include a disclaimer that AR is only a 90% accurate estimation).*
+   *   *(Opt 3: We simulate fabric physics (like silk vs cotton) to show how it drapes).*
+10. Why wouldn't massive brands just build this feature into their own apps? 
+   *   *(Opt 1: They don't have the AI talent; they prefer to buy our API).*
+   *   *(Opt 2: We aggregate all brands into one app, like Myntra).*
+   *   *(Opt 3: They will, and we plan to sell our company to them).*
+
+**Hard Questions (Level 3):**
+11. **The MVP:** AR development is incredibly hard. How do you test this tomorrow? 
+   *   *(Opt 1: I will build a simple Snapchat or Instagram filter to see if people use it).*
+   *   *(Opt 2: Manually photoshop clothes onto photos that users send me).*
+   *   *(Opt 3: Use an existing open-source AR library just to prove the concept).*
+12. **Processing Power:** Real-time cloth simulation melts phone batteries. How do you fix this? 
+   *   *(Opt 1: We offload the processing to cloud GPUs via 5G).*
+   *   *(Opt 2: We don't do real-time video; it only works on static photos).*
+   *   *(Opt 3: We heavily compress the 3D models to run locally).*
+13. **B2B Pivot:** Instead of getting users to download an app, why not sell the software directly to Myntra? 
+   *   *(Opt 1: That is exactly our plan; we are a B2B SaaS company).*
+   *   *(Opt 2: Myntra takes too long to sign contracts; we need users now).*
+   *   *(Opt 3: We want to own the customer data ourselves).*
+14. **Data Privacy:** You are literally scanning people's bodies in their bedrooms. Isn't that a massive privacy risk? 
+   *   *(Opt 1: The body scan data never leaves the local phone).*
+   *   *(Opt 2: We blur the faces before the data is sent to our servers).*
+   *   *(Opt 3: We adhere strictly to GDPR privacy laws).*
+15. **The Real Problem:** The biggest problem in e-commerce is returns (30% of clothes are returned). How much does your app reduce this? 
+   *   *(Opt 1: We guarantee a reduction in return rates by at least 15%).*
+   *   *(Opt 2: We focus on increasing conversion (sales), not just reducing returns).*
+   *   *(Opt 3: We charge brands based purely on how many returns we prevent).*
