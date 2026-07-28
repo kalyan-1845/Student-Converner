@@ -28,15 +28,43 @@ Follow this exact minute-by-minute script to fill the 2 hours and train your tea
 
 ---
 
-## 🕒 HOUR 2: Live Roleplay & Event Logistics
+## 🕒 HOUR 2: The Live Roleplay Gauntlet (1:00 - 1:50)
 
-### 4. The Live Roleplay Training (1:00 - 1:40)
-*You cannot just hand them a cheat sheet. You have to practice. You (Kalyan) will act as a stupid student, and you will force the coordinators to practice grilling you.*
+*This is how you fill the second hour. Do not just lecture. Make them practice.*
+*   **The Setup:** You (Kalyan) sit on one side of the room. Tell all 40 coordinators to sit on the other side. 
+*   **The Rules:** You are going to pitch "Dummy Ideas." You will act like a stubborn student. The 40 coordinators must shout out the hardest questions they can think of. If they ask a weak question, you reject it. 
 
-*   **Round 1:** *"Okay, I am going to pretend to be a student. My idea is a Swiggy clone, but just for ACE Engineering College. Grill me. Ask me questions from the Cheat Sheet."*
-    *   *(Make them practice asking you: "How is it different? How will you make money? How do you test it without an app?")*
-*   **Round 2:** *"Now I am going to pretend to be a student who is angry and doesn't want to talk. How do you handle me?"*
-    *   *(Train them to be polite but firm. "If a student gets angry, just say: We are preparing you for the Smart India Hackathon judges. We have to be tough on you.")*
+### 🎭 Roleplay Round 1: The Swiggy Clone
+*   **You say:** *"Hi, my idea is a food delivery app exactly like Swiggy, but it is only for our college canteen."*
+*   **What you want the Coordinators to ask you:** 
+    *   "Who is doing the physical delivery? Students?"
+    *   "If the food costs 50 Rupees, and you charge a 10 Rupee delivery fee, will students actually pay that?"
+    *   "Why build an app? Why can't we just start a WhatsApp group where students text their orders to the canteen?"
+
+### 🎭 Roleplay Round 2: The "Save the Trees" App
+*   **You say:** *"I am building an AI app that tells you exactly when a tree in the forest needs to be watered to stop global warming."*
+*   **What you want the Coordinators to ask you:**
+    *   "How does the AI know the tree needs water without putting an expensive physical sensor on every single tree?"
+    *   "Who is your customer? Trees don't have credit cards. Is the government paying for this?"
+    *   "Is this a real business, or just a charity project?"
+
+### 🎭 Roleplay Round 3: The AI Resume Writer
+*   **You say:** *"I am building an AI website that will write a perfect engineering resume for you."*
+*   **What you want the Coordinators to ask you:**
+    *   "ChatGPT already does this completely for free right now. Why would anyone use your website?"
+    *   "How is your AI different from ChatGPT?"
+
+### 🎭 Roleplay Round 4: The Smart Shoe
+*   **You say:** *"I am building a smart shoe that charges your phone battery while you walk."*
+*   **What you want the Coordinators to ask you:**
+    *   "Hardware is expensive. How do you test this today without actually building the shoe?"
+    *   "What happens if it rains and the shoe gets wet? Does the battery explode?"
+    *   "How heavy is a shoe with a massive battery inside it?"
+
+### 🎭 Roleplay Round 5: The Angry Student
+*   **You say:** *(Act very annoyed)* *"I don't know why you are asking me all these questions. My idea is perfect. I just need a developer to build it for me."*
+*   **What you want the Coordinators to say:**
+    *   "We are asking you these questions because this is exactly what the Smart India Hackathon (SIH) judges will ask you. If you can't answer us, you will lose the hackathon."
 
 ### 5. Reviewing the 10-Question Deep Dive (1:40 - 1:50)
 *   **Convener Script:** *"I just sent the '10-Question Deep Dive' document to the WhatsApp group. Open it on your phones right now. When you are sitting at the tables on Saturday, you must go through all 10 questions for your assigned idea. Do not let the participant give you vague answers. Write their answers down."*
