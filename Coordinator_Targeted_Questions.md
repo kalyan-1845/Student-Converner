@@ -28,5 +28,13 @@
 *   **The Problem:** Medical data has massive legal and privacy restrictions.
 *   **Your Grill Question:** *"Is this app for doctors or patients? If an AI makes a mistake with a medical document, who is legally responsible? How are you handling data privacy laws?"*
 
+### 🎯 Target 7: Victor Isaac Chintha (Idea: Musicman)
+*   **The Problem:** The name means nothing. It could be an app, a speaker, or a service.
+*   **Your Grill Question:** *"Musicman is just a name. What are you actually building? Are you trying to compete with Spotify, are you building a physical instrument, or is it an AI that generates music? You must define exactly what the product is."*
+
+### 🎯 Target 8: Aryan.M (Idea: Rn-Ai sales engineer)
+*   **The Problem:** The B2B sales software market is already crowded with massive AI bots.
+*   **Your Grill Question:** *"Companies already spend millions on Salesforce and existing AI sales bots. Why would a real business trust your AI to talk to their important clients? What makes your sales AI better than what they already use?"*
+
 ---
 **Convener's Note:** For the students who did not list an idea on the registration form, your first job is to force them to write down 3 problems they face in their daily college life, and pick one to solve!
