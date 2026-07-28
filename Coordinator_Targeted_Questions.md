@@ -1,47 +1,107 @@
-# Coordinator Target List: Expanded Grill Questions
+# Coordinator Target List: 10-Question Deep Dive
 
-**Attention Coordinators:** When you sit at the table with your assigned founder, you cannot just ask one question and be done. You need to push them hard for the whole session. 
-
-Here are **3 specific questions** for every single idea that was submitted. Do not let them give you easy answers!
+**Attention Coordinators:** You have 3 hours with your assigned founder. You cannot run out of things to talk about. Below are **10 specific, aggressive questions** for every single idea submitted. Work through these one by one. Force the founder to write down the answer to every single question.
 
 ---
 
-### 🎯 Target 1: Tasya (SentiPulse Hub - Wearable Laser Mapping/SOS)
-1. **The Cost Question:** *"Building hardware rings with laser mapping costs lakhs of rupees. How can you test the core SOS feature using just a standard smartphone app by next week, without building any physical hardware?"*
-2. **The Competition Question:** *"The Apple Watch already has automated Fall Detection and SOS. Why would a customer buy your ring instead of an Apple Watch?"*
-3. **The Battery Question:** *"Lasers require massive amounts of power. How do you put a battery inside a tiny ring without it dying in 10 minutes?"*
+### 🎯 Target 1: Tasya (SentiPulse Hub - Wearable Laser/SOS Ring)
+1. **Cost:** Building hardware rings with laser mapping costs lakhs. How do you test the SOS feature with an Android app today?
+2. **Competition:** Apple Watch already has Fall Detection. Why would someone buy your ring instead?
+3. **Battery:** Lasers drain power. How do you fit a battery in a ring without it dying in 10 minutes?
+4. **Accuracy:** How does the "laser mapping" actually work on a moving hand?
+5. **Target:** Who exactly is buying this? Elderly people, or young women for safety?
+6. **Privacy:** Are there legal issues with scanning currency in public?
+7. **Durability:** Rings get smashed against walls. Will the laser break instantly?
+8. **Loss:** Rings get lost easily. How does the user track it?
+9. **Manufacturing:** Do you know how to build a custom PCB board that small?
+10. **The MVP:** Can you build a cardboard/plastic prototype today just to see if it fits on a finger?
 
 ### 🎯 Target 2: Chavan Srikar (Class Attendance SMS System)
-1. **The ERP Question:** *"Most colleges already pay lakhs for big ERP systems (like TCS iON) that do attendance and SMS. Why would a Principal buy a second system just for attendance?"*
-2. **The Human Error Question:** *"If the faculty member forgets to click 'Submit' on your app, the parents don't get the SMS. How does your system fix human error?"*
-3. **The Pivot Question:** *"Instead of selling to massive colleges, would it be easier to sell this to small, private tuition centers who don't have ERP systems?"*
+1. **The Giants:** Colleges already use massive ERPs (TCS iON) for SMS. Why buy a second system?
+2. **Human Error:** If a teacher forgets to click "Submit" on your app, the parent doesn't get the SMS. How do you fix that?
+3. **The Pivot:** Instead of massive colleges, can you sell this to small, private tuition centers?
+4. **Cost:** Sending an SMS costs money. Who pays the telecom bill? You or the college?
+5. **Data:** What happens if a student gives you a fake parent phone number?
+6. **Infrastructure:** Does every single classroom need strong Wi-Fi for your app to work?
+7. **Security:** How do you stop students from hacking the app to mark themselves present?
+8. **The MVP:** Can you build this manually using Twilio APIs by tomorrow morning?
+9. **Adoption:** Will lazy teachers actually download a separate app just for your system?
+10. **Business Model:** Is it a one-time purchase, or a monthly subscription per student?
 
 ### 🎯 Target 3: Barla Sujan Kumar (AI Security Testing)
-1. **The Customer Question:** *"Who is your actual customer? A normal college student won't pay for this, and a big bank will only use massive billion-dollar companies like Crowdstrike. Who pays you?"*
-2. **The Legal Question:** *"If your AI misses a virus, and the company gets hacked, are you legally liable for their lost money?"*
-3. **The MVP Question:** *"How do you test this AI safely by next week without accidentally attacking a real company's servers?"*
+1. **The Customer:** A college student won't pay for this, and a bank uses Crowdstrike. Who pays you?
+2. **Liability:** If your AI misses a virus and a company gets hacked, are you legally responsible?
+3. **The MVP:** How do you test this AI safely without accidentally attacking a real company's servers?
+4. **Differentiation:** Why should a company trust a college student's AI over an established corporation?
+5. **Function:** Is your AI actively stopping hacks (like an antivirus), or just scanning code for bugs?
+6. **Data:** Where are you getting the training data to teach the AI what a virus looks like?
+7. **Access:** Will companies actually give you access to their secret source code to scan it?
+8. **Compute:** AI requires massive GPUs. How will you afford the server costs?
+9. **Simplicity:** Can you just use a standard ChatGPT API prompt to scan code instead of building a new model?
+10. **First Client:** Who is the exact first local business you can convince to let you scan their network?
 
 ### 🎯 Target 4: Aishwarya (Urban Cool AI)
-1. **The Buzzword Question:** *"I don't understand what this is. Explain 'Urban Cool AI' to me in one sentence without using the word AI."*
-2. **The Product Question:** *"Are you selling a software app on a phone, a physical smart air conditioner, or a consulting service?"*
-3. **The Target Question:** *"Who needs this the absolute most right now in Hyderabad?"*
+1. **Definition:** Explain "Urban Cool AI" in one sentence without using the word "AI".
+2. **The Product:** Are you selling a software app, a physical air conditioner, or a service?
+3. **The Customer:** Who needs this the absolute most right now in Hyderabad?
+4. **Value:** Does this save the user time, or does it save them money (electricity bills)?
+5. **The MVP:** How do you test this concept manually by tomorrow morning?
+6. **Design:** Can you draw the user interface (the screen) on a piece of paper right now?
+7. **Data:** What specific data does your AI actually need to learn from?
+8. **Environment:** Is this meant for big corporate offices or small apartments?
+9. **Price:** How much are you going to charge the customer?
+10. **The Name:** "Urban Cool" is vague. Can you think of a name that explains exactly what it does?
 
 ### 🎯 Target 5: Sannidhanam Vaishnavi (Earphones Holder)
-1. **The Shrinking Market Question:** *"90% of people are switching to wireless Bluetooth earbuds (Airpods, boAt). Is your market for wired earphone holders dying every single day?"*
-2. **The Profit Question:** *"If I can buy a cheap plastic holder on Amazon for 50 Rupees, how will you ever make a profit on this?"*
-3. **The Test Question:** *"Can you 3D print one by tomorrow and see if a single student in the canteen will actually pay you 100 Rupees for it?"*
+1. **Market Size:** Everyone uses wireless Airpods now. Is your target market dying every single day?
+2. **Profit:** If I can buy a cheap holder on Amazon for 50 Rupees, how will you ever make money?
+3. **The MVP:** Can you 3D print one by tomorrow and see if someone in the canteen buys it for 100 Rs?
+4. **Design:** Does it fit comfortably in a tight jeans pocket?
+5. **Material:** Is it made of hard plastic (breaks easily) or flexible silicone?
+6. **Utility:** Can you attach it to a keychain so people don't lose it?
+7. **The Pivot:** Why not sell custom cases for wireless earbuds instead of wired ones?
+8. **Marketing:** How are you going to advertise this to college students?
+9. **Manufacturing:** Who is going to physically make 1,000 of these if you get orders?
+10. **Sales Goal:** Can you sell exactly 10 of these to your classmates by next week?
 
 ### 🎯 Target 6: Regu Pooja (SafeDocAI app)
-1. **The User Question:** *"Is this app designed for doctors to use in a hospital, or for normal patients to use at home?"*
-2. **The Privacy Question:** *"Medical data falls under strict privacy laws. How are you legally allowed to scan someone's health documents with an AI?"*
-3. **The Danger Question:** *"If the AI misreads a medical document and tells the patient the wrong thing, who goes to jail?"*
+1. **The User:** Is this app designed for doctors in a hospital, or for patients at home?
+2. **Privacy:** Medical data has strict privacy laws (HIPAA). Are you legally allowed to scan it?
+3. **Liability:** If the AI misreads a document and the patient gets the wrong medicine, who goes to jail?
+4. **Accuracy:** Can your AI read terrible doctor handwriting?
+5. **Payment:** Are hospitals going to pay for this, or are patients paying a monthly fee?
+6. **The MVP:** Can you just use ChatGPT Vision to read 5 real prescriptions today to see if it works?
+7. **Data Storage:** Where are you storing this highly sensitive medical data?
+8. **Trust:** How do you convince 100 doctors to trust a college student's app with their patient data?
+9. **Danger:** Will your app suggest medicines? (Warning: This is incredibly dangerous and illegal without a license).
+10. **Alternative:** Instead of medical documents, what if you scanned legal documents (lawyers) to avoid medical risks?
 
 ### 🎯 Target 7: Victor Isaac Chintha (Musicman)
-1. **The Definition Question:** *"Musicman is just a name. What are you actually building? Are you building a physical speaker, an app, or an AI that makes beats?"*
-2. **The Spotify Question:** *"If it is an app, Spotify already has millions of songs. Why would anyone download your app?"*
-3. **The Customer Question:** *"Who is your exact first customer? Professional musicians in a studio, or teenagers listening on the bus?"*
+1. **Definition:** "Musicman" is just a name. Are you building an app, a speaker, or an AI beat maker?
+2. **Competition:** If it is a music app, Spotify has millions of songs. Why would I download yours?
+3. **The Customer:** Who is your first user? Professional musicians, or teenagers?
+4. **Royalties:** If people listen to music on your app, do you have to pay the artists royalties?
+5. **Creation vs Consumption:** Is this app for *making* music, or *listening* to music?
+6. **The MVP:** Can you draw the wireframe (the buttons and screens) on a piece of paper today?
+7. **Price:** Is the app free with ads, or does it cost a monthly subscription?
+8. **Licensing:** Do you need massive record labels (like T-Series) to agree to work with you?
+9. **Growth:** How do you convince your first 100 users to actually use it?
+10. **The Name:** "Musicman" sounds old. Can you think of a more modern tech name?
 
 ### 🎯 Target 8: Aryan.M (Rn-Ai sales engineer)
-1. **The Trust Question:** *"Companies already spend millions on Salesforce. Why would a real business trust a college student's AI to talk to their important clients?"*
-2. **The Hallucination Question:** *"If your AI 'hallucinates' and accidentally promises a client a 90% discount, the company loses money. How do you stop the AI from lying?"*
-3. **The MVP Question:** *"Can you just use a basic ChatGPT prompt to act as a sales agent and test it on a local shop owner by tomorrow?"*
+1. **Trust:** Companies spend millions on Salesforce. Why trust a student's AI to talk to clients?
+2. **Hallucinations:** If your AI lies and promises a client a 90% discount, how do you stop it?
+3. **The MVP:** Can you use a ChatGPT prompt to act as a sales agent and test it on a local shop owner tomorrow?
+4. **Medium:** Does your AI make actual phone calls (voice), or does it just send emails?
+5. **Human Emotion:** What happens if the human client gets angry at the AI bot?
+6. **Knowledge Base:** How does the AI know the specific details of the company's products?
+7. **Ethics:** Will sales teams refuse to buy this because they are afraid the AI will steal their jobs?
+8. **Target:** Are you selling this to massive corporations (B2B) or small shops?
+9. **Cost:** AI API calls (like OpenAI) are expensive. How much will it cost to run?
+10. **Live Test:** Can you run a live "sales call" roleplay between your AI and a coordinator right now?
+
+---
+**Convener's Note to Coordinators:** 
+We have **26 total registrations**. Only 8 of them submitted specific ideas (listed above). 
+That means the remaining **18 students** left their ideas completely blank! 
+For those 18 students, your absolute first job is to give them a blank piece of paper and force them to write down 3 problems they face in their daily lives. You must force them to find an idea!
