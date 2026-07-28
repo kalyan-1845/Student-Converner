@@ -30,41 +30,71 @@ Follow this exact minute-by-minute script to fill the 2 hours and train your tea
 
 ## 🕒 HOUR 2: The Live Roleplay Gauntlet (1:00 - 1:50)
 
-*This is how you fill the second hour. Do not just lecture. Make them practice.*
-*   **The Setup:** You (Kalyan) sit on one side of the room. Tell all 40 coordinators to sit on the other side. 
-*   **The Rules:** You are going to pitch "Dummy Ideas." You will act like a stubborn student. The 40 coordinators must shout out the hardest questions they can think of. If they ask a weak question, you reject it. 
+*This is how you train them. You (Kalyan) sit on one side, and the 40 coordinators sit on the other. You will pitch **8 Dummy Ideas** from different categories. The coordinators must shout out the questions. You will answer back to see if they can handle your responses!*
 
-### 🎭 Roleplay Round 1: The Swiggy Clone
-*   **You say:** *"Hi, my idea is a food delivery app exactly like Swiggy, but it is only for our college canteen."*
-*   **What you want the Coordinators to ask you:** 
-    *   "Who is doing the physical delivery? Students?"
-    *   "If the food costs 50 Rupees, and you charge a 10 Rupee delivery fee, will students actually pay that?"
-    *   "Why build an app? Why can't we just start a WhatsApp group where students text their orders to the canteen?"
+### 🎭 Scenario 1: E-Commerce (The College Food Delivery App)
+*   **You Pitch:** *"I am building an app like Swiggy, but only for our college canteen."*
+*   **Simple Question (Coordinators):** "Who is going to do the physical delivery?"
+    *   *You Answer:* "I will hire 1st-year students to do it."
+*   **Medium Question (Coordinators):** "If the food is 50 Rs, and you charge 10 Rs for delivery, how do you make enough profit to pay the 1st years?"
+    *   *You Answer:* "I haven't thought about that yet."
+*   **Hard Question (Coordinators):** "Building an app takes 3 months. Why can't we test this today by just making a WhatsApp group and taking orders manually?"
 
-### 🎭 Roleplay Round 2: The "Save the Trees" App
-*   **You say:** *"I am building an AI app that tells you exactly when a tree in the forest needs to be watered to stop global warming."*
-*   **What you want the Coordinators to ask you:**
-    *   "How does the AI know the tree needs water without putting an expensive physical sensor on every single tree?"
-    *   "Who is your customer? Trees don't have credit cards. Is the government paying for this?"
-    *   "Is this a real business, or just a charity project?"
+### 🎭 Scenario 2: Hardware / IoT (The Smart AC Helmet)
+*   **You Pitch:** *"I am building a motorcycle helmet with a built-in Air Conditioner."*
+*   **Simple Question (Coordinators):** "What happens if it rains? Will the electronics short circuit?"
+    *   *You Answer:* "We will make it waterproof."
+*   **Medium Question (Coordinators):** "An AC requires a massive battery and a compressor. How heavy is this helmet going to be on someone's neck?"
+    *   *You Answer:* "It might be a little heavy, maybe 3 Kgs."
+*   **Hard Question (Coordinators):** "Hardware prototyping costs lakhs of rupees. How do you test if bikers actually want this using just a free survey or a 3D model today?"
 
-### 🎭 Roleplay Round 3: The AI Resume Writer
-*   **You say:** *"I am building an AI website that will write a perfect engineering resume for you."*
-*   **What you want the Coordinators to ask you:**
-    *   "ChatGPT already does this completely for free right now. Why would anyone use your website?"
-    *   "How is your AI different from ChatGPT?"
+### 🎭 Scenario 3: Generative AI (The AI Resume Writer)
+*   **You Pitch:** *"I am building an AI website that automatically writes a perfect engineering resume."*
+*   **Simple Question (Coordinators):** "Who is your exact target audience?"
+    *   *You Answer:* "Final year engineering students looking for jobs."
+*   **Medium Question (Coordinators):** "ChatGPT already writes resumes perfectly for free. Why would anyone use your website instead of ChatGPT?"
+    *   *You Answer:* "Mine is specifically trained on engineering keywords."
+*   **Hard Question (Coordinators):** "If your AI 'hallucinates' and puts fake skills on a student's resume, and they get fired, are you legally liable for ruining their career?"
 
-### 🎭 Roleplay Round 4: The Smart Shoe
-*   **You say:** *"I am building a smart shoe that charges your phone battery while you walk."*
-*   **What you want the Coordinators to ask you:**
-    *   "Hardware is expensive. How do you test this today without actually building the shoe?"
-    *   "What happens if it rains and the shoe gets wet? Does the battery explode?"
-    *   "How heavy is a shoe with a massive battery inside it?"
+### 🎭 Scenario 4: MedTech (The AI Skin Disease Scanner)
+*   **You Pitch:** *"I am building an app where you take a photo of your skin, and the AI tells you if you have cancer."*
+*   **Simple Question (Coordinators):** "Is this app for doctors to use, or for normal people at home?"
+    *   *You Answer:* "For normal people at home."
+*   **Medium Question (Coordinators):** "Where are you getting the thousands of medical photos needed to train this AI accurately?"
+    *   *You Answer:* "I will just download them from Google Images."
+*   **Hard Question (Coordinators):** "Medical diagnosis is highly illegal without a license. What if your AI tells someone they are healthy, but they actually have cancer? Who gets sued?"
 
-### 🎭 Roleplay Round 5: The Angry Student
-*   **You say:** *(Act very annoyed)* *"I don't know why you are asking me all these questions. My idea is perfect. I just need a developer to build it for me."*
-*   **What you want the Coordinators to say:**
-    *   "We are asking you these questions because this is exactly what the Smart India Hackathon (SIH) judges will ask you. If you can't answer us, you will lose the hackathon."
+### 🎭 Scenario 5: EdTech (The Blockchain Degree Generator)
+*   **You Pitch:** *"I want to put all college degrees on the Blockchain so they can't be faked."*
+*   **Simple Question (Coordinators):** "What exact problem does this solve for the college?"
+    *   *You Answer:* "It stops students from making fake certificates in Photoshop."
+*   **Medium Question (Coordinators):** "Why use expensive Blockchain technology instead of just giving students a secure, digitally signed PDF?"
+    *   *You Answer:* "Because Blockchain sounds cooler and investors like it."
+*   **Hard Question (Coordinators):** "Colleges already use massive ERP systems (like TCS iON). How are you going to force the Principal to switch to your brand new platform?"
+
+### 🎭 Scenario 6: FinTech (The Student Micro-Loan App)
+*   **You Pitch:** *"I am building an app that gives 500 Rupee micro-loans to students who run out of pocket money."*
+*   **Simple Question (Coordinators):** "Where does the money come from to give out these loans? Are you paying from your own pocket?"
+    *   *You Answer:* "Yes, I have 10,000 Rupees saved up."
+*   **Medium Question (Coordinators):** "College students have no income. How do you physically force them to pay you back if they delete the app?"
+    *   *You Answer:* "I will call their parents."
+*   **Hard Question (Coordinators):** "Lending money requires strict RBI (Reserve Bank of India) licenses. How do you test this business legally by tomorrow without getting arrested?"
+
+### 🎭 Scenario 7: GreenTech (The Smart Dustbin)
+*   **You Pitch:** *"I am building a smart dustbin that sorts dry and wet waste automatically using robotic arms."*
+*   **Simple Question (Coordinators):** "What makes this dustbin 'smart'?"
+    *   *You Answer:* "It has sensors and AI cameras."
+*   **Medium Question (Coordinators):** "Who buys this? The government municipality, or normal households?"
+    *   *You Answer:* "The government."
+*   **Hard Question (Coordinators):** "A smart dustbin costs 10x more than a normal plastic one. How do you prove to the government that they will save money in the long run by buying yours?"
+
+### 🎭 Scenario 8: Services / Marketplace (The College Fiverr)
+*   **You Pitch:** *"I am building a freelance marketplace just for our college, where students can pay other students to do their assignments."*
+*   **Simple Question (Coordinators):** "How do you make money off this platform?"
+    *   *You Answer:* "I take a 10% cut of every transaction."
+*   **Medium Question (Coordinators):** "How do you stop students from just meeting on your platform, and then paying each other in cash in the canteen to avoid your 10% fee?"
+    *   *You Answer:* "I haven't thought of that."
+*   **Hard Question (Coordinators):** "A marketplace needs both buyers and sellers. How do you get people to post jobs when there are no freelancers, and how do you get freelancers when there are no jobs?"
 
 ### 5. Reviewing the 10-Question Deep Dive (1:40 - 1:50)
 *   **Convener Script:** *"I just sent the '10-Question Deep Dive' document to the WhatsApp group. Open it on your phones right now. When you are sitting at the tables on Saturday, you must go through all 10 questions for your assigned idea. Do not let the participant give you vague answers. Write their answers down."*
