@@ -1,40 +1,47 @@
-# Internal Coordinator Meeting: Student Case Studies
+# Convener's 2-Hour Meeting Agenda: Coordinator Training
 
-**Convener Instructions:** Use this document during your private meeting with the 40 coordinators tomorrow. Go through these students **by name**. Tell your coordinators to take notes. You need to assign the right coordinators to the right tables!
+**Objective:** You have 40 coordinators in a room for 2 hours. You cannot just talk *at* them. You must train them how to be aggressive, professional consultants for Saturday's Bootcamp. 
+
+Follow this exact minute-by-minute script to fill the 2 hours and train your team perfectly.
+
+---
+
+## 🕒 HOUR 1: The Strategy & Table Assignments
+
+### 1. The Mindset Shift (0:00 - 0:15)
+*   **Convener Script:** *"Listen up. This Saturday is not a normal college event. We have exactly 26 registrations, and 40 of us. We are using the 'Consulting Firm' model. You are not event managers on Saturday; you are Co-Founders. 4 of you will sit at a table with 1 participant. Your job is to rip their idea apart and build it back up for the Smart India Hackathon."*
+
+### 2. The "Blank Form" Protocol (0:15 - 0:30)
+*   **Convener Script:** *"Out of the 26 registrations, 18 of them left the 'idea' section completely blank. If you are assigned to one of these tables, your first job is to put a blank piece of paper in front of them. Ask them: 'What are 3 things that annoy you every day?' Force them to pick one problem and solve it. Nobody leaves your table without a business idea."*
+
+### 3. Assigning the 8 Known Targets (0:30 - 1:00)
+*Go through the known students by name and assign specific coordinators to their tables based on their skills.*
+
+*   **Tasya (Laser/SOS Ring):** *"Tasya is doing hardware. I need my best IoT/Hardware coordinators at this table. You need to convince her to test this as an Android app first because hardware is too expensive. Who wants this table?"*
+*   **Chavan Srikar (Class Attendance SMS):** *"Srikar is competing against massive ERPs like TCS iON. I need business-minded coordinators here to convince him to pivot and sell to small tuition centers instead. Who wants it?"*
+*   **Barla Sujan (AI Security):** *"Barla wants to build cybersecurity AI. I need people who understand tech here. You must ask him how a college student is going to convince a massive bank to trust his AI over Crowdstrike."*
+*   **Aishwarya (Urban Cool AI):** *"This idea is just buzzwords. The coordinators at this table must aggressively force her to explain what this actually is without using the word AI. Who wants this?"*
+*   **Sannidhanam Vaishnavi (Earphones Holder):** *"This is a physical product in a world where everyone uses wireless Airpods. I need marketing coordinators here to ask her how she will ever make a profit on a 50 Rupee piece of plastic."*
+*   **Regu Pooja (SafeDocAI):** *"Medical privacy is highly illegal if done wrong. I need coordinators here who can grill her on HIPAA laws and what happens if her AI misreads a doctor's prescription."*
+*   **Victor Isaac Chintha (Musicman):** *"He gave us a name, but no product. The team at this table must force him to decide if he is building an app, a speaker, or an AI generator."*
+*   **Aryan.M (Rn-Ai sales engineer):** *"He wants to build B2B sales AI. The team here must ask him how he will stop the AI from hallucinating and lying to clients. Who wants this table?"*
 
 ---
 
-## 🧑‍🎓 Student 1: Tasya Kundana Adireddy
-*   **The Idea:** SentiPulse Hub (Wearable laser mapping / SOS ring)
-*   **Internal Discussion for Coordinators:** "Guys, Tasya has a highly technical hardware idea. Hardware startups usually fail because they run out of money. The coordinators sitting at her table need to convince her to drop the laser ring for now, and test the SOS feature as a simple Android app first. Who here is good at hardware/IoT to take her table?"
+## 🕒 HOUR 2: Live Roleplay & Event Logistics
 
-## 🧑‍🎓 Student 2: Chavan Srikar (Team: AIML DASHERS)
-*   **The Idea:** Class Attendance SMS System
-*   **Internal Discussion for Coordinators:** "Srikar is building an attendance system. But we all know colleges buy massive ERP systems like TCS iON. The coordinators at his table must push him to pivot. Instead of selling to big colleges, ask him if he can sell this to small, local tuition centers. I need coordinators with good business sense at this table."
+### 4. The Live Roleplay Training (1:00 - 1:40)
+*You cannot just hand them a cheat sheet. You have to practice. You (Kalyan) will act as a stupid student, and you will force the coordinators to practice grilling you.*
 
-## 🧑‍🎓 Student 3: Barla Sujan Kumar (Team: Sristi)
-*   **The Idea:** AI Security Testing
-*   **Internal Discussion for Coordinators:** "Barla wants to build an AI that tests cybersecurity. The problem is trust. Why would a company trust a college student's AI over a massive company like Crowdstrike? The team at this table needs to grill him on exactly who his first paying customer is. Any cybersecurity experts want to take this table?"
+*   **Round 1:** *"Okay, I am going to pretend to be a student. My idea is a Swiggy clone, but just for ACE Engineering College. Grill me. Ask me questions from the Cheat Sheet."*
+    *   *(Make them practice asking you: "How is it different? How will you make money? How do you test it without an app?")*
+*   **Round 2:** *"Now I am going to pretend to be a student who is angry and doesn't want to talk. How do you handle me?"*
+    *   *(Train them to be polite but firm. "If a student gets angry, just say: We are preparing you for the Smart India Hackathon judges. We have to be tough on you.")*
 
-## 🧑‍🎓 Student 4: J.V. Aishwarya (Team: Synapse Squad)
-*   **The Idea:** Urban Cool AI
-*   **Internal Discussion for Coordinators:** "Aishwarya's team submitted an idea that is just buzzwords. We have no idea if 'Urban Cool AI' is an app, a smart AC, or a service. The coordinators assigned to her table must force her to explain the product in simple English within the first 10 minutes. Do not let her use the word 'AI' until she explains the actual product."
+### 5. Reviewing the 10-Question Deep Dive (1:40 - 1:50)
+*   **Convener Script:** *"I just sent the '10-Question Deep Dive' document to the WhatsApp group. Open it on your phones right now. When you are sitting at the tables on Saturday, you must go through all 10 questions for your assigned idea. Do not let the participant give you vague answers. Write their answers down."*
 
-## 🧑‍🎓 Student 5: Sannidhanam Vaishnavi (Team: Fusionx)
-*   **The Idea:** Earphones Holder
-*   **Internal Discussion for Coordinators:** "Vaishnavi is building a physical holder for wired earphones. The massive problem here is that everyone uses wireless Airpods now. Is her market dying? The team at this table needs to challenge her to prove that people will actually buy this. Tell her to 3D print one and try to sell it."
-
-## 🧑‍🎓 Student 6: Regu Pooja
-*   **The Idea:** SafeDocAI app
-*   **Internal Discussion for Coordinators:** "Regu is dealing with medical data. This means strict privacy laws and high risk. If her AI makes a mistake, someone gets the wrong medicine. The coordinators here need to grill her on the legal risks and whether this is for doctors or patients."
-
-## 🧑‍🎓 Student 7: Victor Isaac Chintha
-*   **The Idea:** Musicman
-*   **Internal Discussion for Coordinators:** "Victor gave us a name, but no product. We need to know if Musicman is a Spotify competitor, a speaker, or an AI beat generator. The coordinators at his table must force him to define his product immediately."
-
-## 🧑‍🎓 Student 8: Aryan.M
-*   **The Idea:** Rn-Ai sales engineer
-*   **Internal Discussion for Coordinators:** "Aryan wants to replace sales engineers with AI. The problem is AI hallucinations—what if his AI lies to a client and costs a business money? The coordinators at his table must figure out how he plans to test this safely. Can he test it on a local shop owner first?"
-
----
-**Final Command to Coordinators:** "For the 13 students who registered but left their ideas blank, your job is to give them a blank piece of paper and force them to find a problem they want to solve. No one leaves Room 2408 without an idea!"
+### 6. The Portal Proof & Logistics (1:50 - 2:00)
+*   **Convener Script:** *"We have strict rules from the Ministry of Education. We need exactly 5 photos uploaded to the portal."*
+*   **Assign the Social Media Team:** *"I need 2 people to be the dedicated photographers. I need one wide shot of all 50 of us in Room 2408. I need close-up shots of the coordinators aggressively pointing at papers and talking to the students at the tables. The photos must make this look like a high-end corporate incubator."*
+*   **Final Dismissal:** *"Be in Room 2408 at exactly 9:00 AM on Saturday to arrange the tables. The doors lock at 9:35 AM. Let's get this done."*
