@@ -105,3 +105,31 @@
 We have **26 total registrations**. Only 8 of them submitted specific ideas (listed above). 
 That means the remaining **18 students** left their ideas completely blank! 
 For those 18 students, your absolute first job is to give them a blank piece of paper and force them to write down 3 problems they face in their daily lives. You must force them to find an idea!
+
+---
+
+## 🛠️ OPTIONAL ASIDE: 22 Universal Startup Questions
+*(Coordinators: Use these generic questions for the 18 students who did not submit an idea, or use them as backup questions if you run out of things to talk about at any table).*
+
+1. Can you explain your idea to a 5-year-old? (If no, it's too complicated).
+2. What is the core problem you are trying to solve?
+3. Is this problem a "vitamin" (nice to have) or a "painkiller" (must have)?
+4. Who is your exact target audience? (Be specific).
+5. How big is the market for this?
+6. Who are your direct competitors right now?
+7. What makes you different or better than your competitors?
+8. How are you going to make money? (What is your revenue model?)
+9. How much will it cost you to build the very first version (MVP)?
+10. If you had to launch this tomorrow, what features would you cut out?
+11. How will you get your first 100 customers?
+12. Do you need any legal permissions to do this?
+13. Can a massive company like Google or Amazon easily copy this?
+14. Is this just a feature of another app, or is it a whole company?
+15. How much will you charge the customer?
+16. Are people actually willing to pay for this, or do they expect it for free?
+17. What happens if you run out of money tomorrow? How do you survive?
+18. How will you convince customers to keep coming back every month?
+19. What specific skills does your team lack right now? (e.g., Coding, Marketing).
+20. What is the #1 biggest risk that will destroy this company?
+21. Are you passionate about this problem, or are you just doing it for a hackathon?
+22. What is the one thing you need help with the most right now?
