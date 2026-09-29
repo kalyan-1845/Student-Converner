@@ -705,67 +705,26 @@
 
   <script>
     const roleData = {
-      convener: {
-        role: "Student Convener (IIC)",
-        citation: "In recognition of dedicated leadership, coordination, and valuable contribution to the activities and initiatives of the <strong>Institution's Innovation Council</strong>, and for successfully supporting and coordinating the IIC student team during the <strong>one-year tenure</strong>. Your commitment and active involvement in promoting innovation, entrepreneurship, creativity, and student participation are sincerely appreciated."
-      },
-      startup: {
-        role: "Startup Coordinator (IIC)",
-        citation: "In recognition of dedicated service and valuable contribution to the <strong>Institution's Innovation Council</strong> during the <strong>one-year tenure</strong>, supporting activities related to entrepreneurship, startup awareness, ideation, innovation, and entrepreneurial engagement among students. Your active involvement and contribution towards developing an entrepreneurial mindset among students are sincerely appreciated."
-      },
-      innovation: {
-        role: "Innovation Coordinator (IIC)",
-        citation: "In recognition of dedicated service and valuable contribution to the <strong>Institution's Innovation Council</strong> during the <strong>one-year tenure</strong>, supporting initiatives that encouraged innovation, creativity, ideation, problem-solving, and student participation in innovation-oriented activities. Your enthusiasm and contribution towards fostering an innovation-driven environment are sincerely appreciated."
-      },
-      ipr: {
-        role: "IPR Coordinator (IIC)",
-        citation: "In recognition of dedicated service and valuable contribution to the <strong>Institution's Innovation Council</strong> during the <strong>one-year tenure</strong>, with active involvement in promoting awareness and understanding of Intellectual Property Rights, innovation, creativity, and knowledge protection among students. Your commitment and contribution towards strengthening the culture of innovation are sincerely appreciated."
-      },
-      social: {
-        role: "Social Media Coordinator (IIC)",
-        citation: "In recognition of dedicated service and valuable contribution to the <strong>Institution's Innovation Council</strong> during the <strong>one-year tenure</strong>, supporting the communication and digital promotion of IIC activities, events, initiatives, achievements, and student participation. Your consistent efforts in strengthening the digital presence and outreach of the Institution's Innovation Council are sincerely appreciated."
-      }
+      convener: { role: 'STUDENT CONVENER (IIC)', citation: 'In recognition of dedicated leadership, coordination, and valuable contribution to the activities and initiatives of the <strong>Institution\'s Innovation Council</strong>, and for successfully supporting and coordinating the IIC student team during the <strong>one-year tenure</strong>. Your commitment and active involvement in promoting innovation, entrepreneurship, creativity, and student participation are sincerely appreciated.' },
+      startup: { role: 'STARTUP COORDINATOR (IIC)', citation: 'In recognition of dedicated efforts in fostering a culture of entrepreneurship and guiding early-stage ideas. Your contribution as the Startup Coordinator for the <strong>Institution\'s Innovation Council</strong> during this <strong>one-year tenure</strong> has been instrumental in building a robust startup ecosystem on campus.' },
+      innovation: { role: 'INNOVATION COORDINATOR (IIC)', citation: 'In recognition of outstanding commitment to driving creative thinking and technical excellence. Your role as the Innovation Coordinator for the <strong>Institution\'s Innovation Council</strong> during this <strong>one-year tenure</strong> has significantly empowered students to develop impactful and innovative solutions.' },
+      ipr: { role: 'IPR COORDINATOR (IIC)', citation: 'In recognition of your exceptional dedication to promoting awareness of Intellectual Property Rights. Your efforts as the IPR Coordinator for the <strong>Institution\'s Innovation Council</strong> during this <strong>one-year tenure</strong> have successfully guided students in protecting their innovations and patents.' },
+      social: { role: 'SOCIAL MEDIA COORDINATOR (IIC)', citation: 'In recognition of your creative outreach and digital engagement strategies. Your role as the Social Media Coordinator for the <strong>Institution\'s Innovation Council</strong> during this <strong>one-year tenure</strong> has effectively amplified the council\'s impact and visibility across all platforms.' }
     };
 
-    function setRole(key) {
-      const data = roleData[key];
-      if (!data) return;
-      document.getElementById('display-role').innerHTML = data.role;
-      document.getElementById('display-citation').innerHTML = data.citation;
-
-      document.querySelectorAll('.role-btn').forEach(btn => btn.classList.remove('active'));
-      event.target.classList.add('active');
-    }
-
-    function loadLogo(event, imgId) {
-      const file = event.target.files[0];
-      if (file) {
-        const reader = new FileReader();
-        reader.onload = function(e) {
-          document.getElementById(imgId).src = e.target.result;
-        };
-        reader.readAsDataURL(file);
-      }
-    }
-  
     async function startGeneration() {
       const name = document.getElementById('studentName').value.trim();
-      
       const roleKey = document.getElementById('studentRole').value;
       
-      // Dynamic Color Theme based on Role!
       const colors = {
-        convener: { main: '#d4af37', dark: '#c59b27' },       // Classic Gold
-        startup: { main: '#0d9488', dark: '#0f766e' },        // Startup Teal
-        innovation: { main: '#4f46e5', dark: '#4338ca' },     // Innovation Indigo
-        ipr: { main: '#e11d48', dark: '#be123c' },            // IPR Ruby Red
-        social: { main: '#ea580c', dark: '#c2410c' }          // Social Orange
+        convener: { main: '#d4af37', dark: '#c59b27' },
+        startup: { main: '#0d9488', dark: '#0f766e' },
+        innovation: { main: '#4f46e5', dark: '#4338ca' },
+        ipr: { main: '#e11d48', dark: '#be123c' },
+        social: { main: '#ea580c', dark: '#c2410c' }
       };
       
       if(colors[roleKey]) {
-        // html2canvas has a known bug with dynamic CSS variables.
-        // To force the entire certificate (borders, corners, lines) to change color,
-        // we inject a bulletproof <style> block right before generation!
         let styleTag = document.getElementById('dynamic-colors');
         if(!styleTag) {
           styleTag = document.createElement('style');
@@ -773,20 +732,19 @@
           document.head.appendChild(styleTag);
         }
         
-        styleTag.innerHTML = 
-          .certificate-container { border-color:  !important; }
-          .inner-border { border-color:  !important; }
-          .cert-title { border-bottom-color:  !important; }
-          .recipient-name { border-bottom-color:  !important; }
-          .recipient-role { color:  !important; }
-          .corner-tl { border-top-color:  !important; border-left-color:  !important; }
-          .corner-tr { border-top-color:  !important; border-right-color:  !important; }
-          .corner-bl { border-bottom-color:  !important; border-left-color:  !important; }
-          .corner-br { border-bottom-color:  !important; border-right-color:  !important; }
-        ;
+        styleTag.innerHTML = `
+          .certificate-container { border-color: ${colors[roleKey].main} !important; }
+          .inner-border { border-color: ${colors[roleKey].main} !important; }
+          .cert-title { border-bottom-color: ${colors[roleKey].main} !important; }
+          .recipient-name { border-bottom-color: ${colors[roleKey].main} !important; }
+          .recipient-role { color: ${colors[roleKey].dark} !important; }
+          .corner-tl { border-top-color: ${colors[roleKey].main} !important; border-left-color: ${colors[roleKey].main} !important; }
+          .corner-tr { border-top-color: ${colors[roleKey].main} !important; border-right-color: ${colors[roleKey].main} !important; }
+          .corner-bl { border-bottom-color: ${colors[roleKey].main} !important; border-left-color: ${colors[roleKey].main} !important; }
+          .corner-br { border-bottom-color: ${colors[roleKey].main} !important; border-right-color: ${colors[roleKey].main} !important; }
+        `;
         
-        // Also update the dashboard button just for a cool effect!
-        document.getElementById('generateBtn').style.background = linear-gradient(135deg, , );
+        document.getElementById('generateBtn').style.background = `linear-gradient(135deg, ${colors[roleKey].main}, ${colors[roleKey].dark})`;
       }
 
       const btn = document.getElementById('generateBtn');
@@ -804,7 +762,6 @@
         status.style.color = '#f3df8a';
         status.innerText = 'Connecting to secure registry...';
         
-        // 1. Offline Auto-Counter (No Database Required!)
         let count = parseInt(localStorage.getItem('iic_cert_count') || '0') + 1;
         if (count > 70) {
           throw new Error('All 70 certificates have been generated!');
@@ -814,29 +771,21 @@
         const formattedNum = String(count).padStart(3, '0');
         let certId = `ACE/IIC/2025-26/${formattedNum}`;
         
-        // 2. Inject Data into Certificate DOM
         status.innerText = 'Generating Certificate ' + certId + '...';
         
-        // Find the elements in the DOM (assuming they have specific classes from the original HTML)
         document.querySelector('.recipient-name').innerText = name.toUpperCase();
         
-        // We already have roleData defined from before!
         const data = roleData[roleKey];
         document.getElementById('display-role').innerHTML = data.role;
         document.getElementById('display-citation').innerHTML = data.citation;
         
-        // Update Cert ID (Find the span inside meta-details)
         const spans = document.querySelectorAll('.meta-details span');
         if(spans.length >= 3) {
-          // spans[0] is Duration
           spans[0].innerText = 'One Year';
-          // spans[1] is Academic Year
           spans[1].innerText = '2025-2026';
-          // spans[2] is Certificate No
           spans[2].innerText = certId;
         }
         
-        // 3. Trigger Download via html2pdf
         status.innerText = 'Rendering High-Quality PDF...';
         const element = document.querySelector('.certificate-container');
         
@@ -861,7 +810,6 @@
         btn.innerText = 'Try Again';
       }
     }
-</script>
-  </div>
+  </script>
 </body>
 </html>
