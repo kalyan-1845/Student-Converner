@@ -550,7 +550,14 @@
           jsPDF:        { unit: 'in', format: 'a4', orientation: 'landscape' }
         };
         
+        // HIDE THE DASHBOARD COMPLETELY SO THE CAMERA CANNOT SEE IT
+        const dash = document.getElementById('dashboard-overlay');
+        dash.style.display = 'none';
+        
         await html2pdf().set(opt).from(element).save();
+        
+        // SHOW IT AGAIN AFTER THE PDF IS SAVED
+        dash.style.display = 'flex';
         
         status.style.color = '#22c55e';
         status.innerText = 'Success! Certificate Downloaded.';
