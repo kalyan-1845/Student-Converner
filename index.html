@@ -469,9 +469,28 @@
       };
       
       if(colors[roleKey]) {
-        const cert = document.querySelector('.certificate-container');
-        cert.style.setProperty('--gold-main', colors[roleKey].main);
-        cert.style.setProperty('--gold-dark', colors[roleKey].dark);
+        // html2canvas has a known bug with dynamic CSS variables.
+        // To force the entire certificate (borders, corners, lines) to change color,
+        // we inject a bulletproof <style> block right before generation!
+        let styleTag = document.getElementById('dynamic-colors');
+        if(!styleTag) {
+          styleTag = document.createElement('style');
+          styleTag.id = 'dynamic-colors';
+          document.head.appendChild(styleTag);
+        }
+        
+        styleTag.innerHTML = 
+          .certificate-container { border-color:  !important; }
+          .inner-border { border-color:  !important; }
+          .cert-title { border-bottom-color:  !important; }
+          .recipient-name { border-bottom-color:  !important; }
+          .recipient-role { color:  !important; }
+          .corner-tl { border-top-color:  !important; border-left-color:  !important; }
+          .corner-tr { border-top-color:  !important; border-right-color:  !important; }
+          .corner-bl { border-bottom-color:  !important; border-left-color:  !important; }
+          .corner-br { border-bottom-color:  !important; border-right-color:  !important; }
+        ;
+        
         // Also update the dashboard button just for a cool effect!
         document.getElementById('generateBtn').style.background = linear-gradient(135deg, , );
       }
@@ -748,9 +767,28 @@
       };
       
       if(colors[roleKey]) {
-        const cert = document.querySelector('.certificate-container');
-        cert.style.setProperty('--gold-main', colors[roleKey].main);
-        cert.style.setProperty('--gold-dark', colors[roleKey].dark);
+        // html2canvas has a known bug with dynamic CSS variables.
+        // To force the entire certificate (borders, corners, lines) to change color,
+        // we inject a bulletproof <style> block right before generation!
+        let styleTag = document.getElementById('dynamic-colors');
+        if(!styleTag) {
+          styleTag = document.createElement('style');
+          styleTag.id = 'dynamic-colors';
+          document.head.appendChild(styleTag);
+        }
+        
+        styleTag.innerHTML = 
+          .certificate-container { border-color:  !important; }
+          .inner-border { border-color:  !important; }
+          .cert-title { border-bottom-color:  !important; }
+          .recipient-name { border-bottom-color:  !important; }
+          .recipient-role { color:  !important; }
+          .corner-tl { border-top-color:  !important; border-left-color:  !important; }
+          .corner-tr { border-top-color:  !important; border-right-color:  !important; }
+          .corner-bl { border-bottom-color:  !important; border-left-color:  !important; }
+          .corner-br { border-bottom-color:  !important; border-right-color:  !important; }
+        ;
+        
         // Also update the dashboard button just for a cool effect!
         document.getElementById('generateBtn').style.background = linear-gradient(135deg, , );
       }
