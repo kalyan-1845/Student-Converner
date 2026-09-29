@@ -469,8 +469,11 @@
       };
       
       if(colors[roleKey]) {
-        document.documentElement.style.setProperty('--gold-main', colors[roleKey].main);
-        document.documentElement.style.setProperty('--gold-dark', colors[roleKey].dark);
+        const cert = document.querySelector('.certificate-container');
+        cert.style.setProperty('--gold-main', colors[roleKey].main);
+        cert.style.setProperty('--gold-dark', colors[roleKey].dark);
+        // Also update the dashboard button just for a cool effect!
+        document.getElementById('generateBtn').style.background = linear-gradient(135deg, , );
       }
 
       const btn = document.getElementById('generateBtn');
@@ -745,8 +748,11 @@
       };
       
       if(colors[roleKey]) {
-        document.documentElement.style.setProperty('--gold-main', colors[roleKey].main);
-        document.documentElement.style.setProperty('--gold-dark', colors[roleKey].dark);
+        const cert = document.querySelector('.certificate-container');
+        cert.style.setProperty('--gold-main', colors[roleKey].main);
+        cert.style.setProperty('--gold-dark', colors[roleKey].dark);
+        // Also update the dashboard button just for a cool effect!
+        document.getElementById('generateBtn').style.background = linear-gradient(135deg, , );
       }
 
       const btn = document.getElementById('generateBtn');
