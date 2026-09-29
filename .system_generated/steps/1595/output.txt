@@ -1,0 +1,44 @@
+
+The command exited with code 0.
+Output:
+540: 
+541:           <!-- Center Embellished Star -->
+542:           <polygon points="60,41.5 62.4,47 68.2,47.4 63.8,51.2 65.2,56.8 60,53.8 54.8,56.8 56.2,51.2 51.8,47.4 57.6,47" fill="#382103" />
+543: 
+544:           <!-- Middle & Bottom Titles (Properly proportioned with zero clipping) -->
+545:           <text x="60" y="66" text-anchor="middle" font-family="'Cinzel', serif" font-size="6.8" font-weight="800" fill="#382103" letter-spacing="1.1">INNOVATION</text>
+546:           <text x="60" y="75" text-anchor="middle" font-family="'Cinzel', serif" font-size="6.2" font-weight="800" fill="#382103" letter-spacing="1.4">COUNCIL</text>
+547: 
+548:           <!-- Bottom Micro Stars Accent -->
+549:           <text x="60" y="83" text-anchor="middle" font-size="5" fill="#663f04" letter-spacing="2">  </text>
+550:         </g>
+551:       </svg>
+552:     </div>
+553: 
+554:     <!-- 6. Signatories (Student Convener & President) -->
+555:     <div class="signatures-section">
+556:             <!-- Left Signatory: Student Convener -->
+557:       <div style="text-align: center;">
+558:         <div class="sig-line"></div>
+559:         <div style="font-weight: 800; font-size: 14px; color: #0b1a30; margin-top: 5px;">Kalyan Reddy</div>
+560:         <div class="sig-title" style="margin-top: 2px;">Student Convener</div>
+561:       </div>
+562: 
+563:             <!-- Right Signatory: President / Head of Institution -->
+564:       <div style="text-align: center;">
+565:         <div class="sig-line"></div>
+566:         <div style="font-weight: 800; font-size: 14px; color: #0b1a30; margin-top: 5px;">Dr. Murali Malijeddi</div>
+567:         <div class="sig-title" style="margin-top: 2px;">Vice Principal & IIC President</div>
+568:       </div>
+569:     </div>
+570:   </div>
+571: 
+572:   <script>
+573:     const roleData = {
+574:       convener: {
+575:         role: "Student Convener (IIC)",
+576:         citation: "In recognition of dedicated leadership, coordination, and valuable contribution to the activities and initiatives of the <strong>Institution's Innovation Council</strong>, and for successfully supporting and coordinating the IIC student team during the <strong>one-year tenure</strong>. Your commitment and active involvement in promoting innovation, entrepreneurship, creativity, and student participation are sincerely appreciated."
+577:       },
+578:       startup: {
+579:         role: "Startup Coordinator (IIC)",
+

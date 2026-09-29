@@ -1,0 +1,18 @@
+The following changes were made by the replace_file_content tool to: C:\Users\prsnl\.gemini\antigravity\brain\d1b69639-1940-4d3a-9d7d-b4963cb4837c\IIC_Certificate_Generator.html. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -411,12 +411,6 @@
+     <button class="role-btn" onclick="setRole('startup')">Startup Coord.</button>
+     <button class="role-btn" onclick="setRole('social')">Social Media Coord.</button>
+ 
+-    <label class="upload-btn" title="If you have your exact image files on disk, you can replace any logo instantly">
+-      <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"><path d="M21 15v4a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2v-4"></path><polyline points="17 8 12 3 7 8"></polyline><line x1="12" y1="3" x2="12" y2="15"></line></svg>
+-      Replace with File
+-      <input type="file" id="logoUploader" accept="image/*" style="display: none;" onchange="handleLogoUpload(event)">
+-    </label>
+-
+     <button class="btn" onclick="window.print()">
+       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="6 9 6 2 18 2 18 9"></polyline><path d="M6 18H4a2 2 0 0 1-2-2v-5a2 2 0 0 1 2-2h16a2 2 0 0 1 2 2v5a2 2 0 0 1-2 2h-2"></path><rect x="6" y="14" width="12" height="8"></rect></svg>
+       Print / Save PDF
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

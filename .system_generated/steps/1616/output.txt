@@ -1,0 +1,9 @@
+
+The command exited with code 0.
+Output:
+NAMES UPDATED
+[main d49605e] Update signature names: Ramesh Alladi and Dr. M. Balraju
+ 1 file changed, 2 insertions(+), 2 deletions(-)
+To https://github.com/kalyan-1845/Student-Converner.git
+   a188184..d49605e  main -> main
+

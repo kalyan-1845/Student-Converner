@@ -1,0 +1,19 @@
+
+The command exited with code 0.
+Output:
+
+    <!-- 1. Top Logo Strip (Click to upload Left and Right logos) -->
+    <div class="logo-strip" id="logoStrip"><div style="display:flex; gap:20px; align-items:center;"><img src="[BASE64]" style="height: 55px; width: auto; object-fit: contain; max-width: 120px; mix-blend-mode: multiply; filter: contrast(1.15) saturate(1.1); image-rendering: high-quality;"><img src="[BASE64]" style="height: 55px; width: auto; object-fit: contain; max-width: 120px; mix-blend-mode: multiply; filter: contrast(1.15) saturate(1.1); image-rendering: high-quality;"><img src="[BASE64]" style="height: 55px; width: auto; object-fit: contain; max-width: 120px; mix-blend-mode: multiply; filter: contrast(1.15) saturate(1.1); image-rendering: high-quality;"></div><div style="display:flex; gap:20px; align-items:center;"><img src="[BASE64]" style="height: 55px; width: auto; object-fit: contain; max-width: 120px; mix-blend-mode: multiply; filter: contrast(1.15) saturate(1.1); image-rendering: high-quality;"><img src="[BASE64]" style="height: 55px; width: auto; object-fit: contain; max-width: 120px; mix-blend-mode: multiply; filter: contrast(1.15) saturate(1.1); image-rendering: high-quality;"><img src="[BASE64]" style="height: 55px; width: auto; object-fit: contain; max-width: 120px; mix-blend-mode: multiply; filter: contrast(1.15) saturate(1.1); image-rendering: high-quality;"><img src="[BASE64]" style="height: 55px; width: auto; object-fit: contain; max-width: 120px; mix-blend-mode: multiply; filter: contrast(1.15) saturate(1.1); image-rendering: high-quality;"></div></div>
+
+    <!-- 2. Institution Header & Certificate Type -->
+    <div class="header-section">
+      <div class="college-name">ACE Engineering College</div>
+      <div class="council-title">Institution�s Innovation Council (IIC)</div>
+      <div class="cert-heading-wrap">
+        <div class="cert-title">Certificate of Appreciation</div>
+      </div>
+    </div>
+
+    <!-- 3. Body Content Area -->
+    <div class="body-section">
+

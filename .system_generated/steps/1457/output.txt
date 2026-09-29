@@ -1,0 +1,138 @@
+
+The command exited with code 1.
+Output:
+  File "<string>", line 16
+    html_left = '<div style=\
+                ^
+SyntaxError: unterminated string literal (detected at line 16)
+gap:15px: 
+Line |
+  16 |  html_left = '<div style=\"display:flex; gap:15px; align-items:center; .
+     |                                          ~~~~~~~~
+     | The term 'gap:15px' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+align-items:center: 
+Line |
+  16 |  . _left = '<div style=\"display:flex; gap:15px; align-items:center;\">'
+     |                                                  ~~~~~~~~~~~~~~~~~~
+     | The term 'align-items:center' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+\>'
+for f in files_left:
+    html_left += f'<img src=\: 
+Line |
+  16 |  . _left = '<div style=\"display:flex; gap:15px; align-items:center;\">'
+     |                                                                     ~~~~
+     | The term '\>'
+for f in files_left:
+    html_left += f'<img src=\' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+width:: 
+Line |
+  18 |  . t += f'<img src=\"{get_b64(f)}\" style=\"height: 55px; width: auto; o .
+     |                                                           ~~~~~~
+     | The term 'width:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+object-fit:: 
+Line |
+  18 |  . {get_b64(f)}\" style=\"height: 55px; width: auto; object-fit: contain .
+     |                                                      ~~~~~~~~~~~
+     | The term 'object-fit:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+max-width:: 
+Line |
+  18 |  . =\"height: 55px; width: auto; object-fit: contain; max-width: 120px;\ .
+     |                                                       ~~~~~~~~~~
+     | The term 'max-width:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+\>'
+html_left += '</div>'
+
+html_right = '<div style=\display:flex: 
+Line |
+  18 |  . height: 55px; width: auto; object-fit: contain; max-width: 120px;\">'
+     |                                                                     ~~~~
+     | The term '\>'
+html_left += '</div>'
+
+html_right = '<div style=\display:flex' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+gap:15px: 
+Line |
+  21 |  html_right = '<div style=\"display:flex; gap:15px; align-items:center .
+     |                                           ~~~~~~~~
+     | The term 'gap:15px' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+align-items:center: 
+Line |
+  21 |  . right = '<div style=\"display:flex; gap:15px; align-items:center;\">'
+     |                                                  ~~~~~~~~~~~~~~~~~~
+     | The term 'align-items:center' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+\>'
+for f in files_right:
+    html_right += f'<img src=\: 
+Line |
+  21 |  . right = '<div style=\"display:flex; gap:15px; align-items:center;\">'
+     |                                                                     ~~~~
+     | The term '\>'
+for f in files_right:
+    html_right += f'<img src=\' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+width:: 
+Line |
+  23 |  . t += f'<img src=\"{get_b64(f)}\" style=\"height: 55px; width: auto; o .
+     |                                                           ~~~~~~
+     | The term 'width:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+object-fit:: 
+Line |
+  23 |  . {get_b64(f)}\" style=\"height: 55px; width: auto; object-fit: contain .
+     |                                                      ~~~~~~~~~~~
+     | The term 'object-fit:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+max-width:: 
+Line |
+  23 |  . =\"height: 55px; width: auto; object-fit: contain; max-width: 120px;\ .
+     |                                                       ~~~~~~~~~~
+     | The term 'max-width:' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+\>'
+html_right += '</div>'
+
+full_strip = f'<div class=\logo-strip\ id=\logoStrip\>{html_left}{html_right}</div>'
+
+html_path = r'C:\Users\prsnl\.gemini\antigravity\brain\d1b69639-1940-4d3a-9d7d-b4963cb4837c\IIC_Certificate_Generator.html'
+with open(html_path, 'r', encoding='utf-8') as file:
+    content = file.read()
+
+# Replace the logo strip
+pattern = re.compile(r'<div class=\logo-strip\ id=\logoStrip\>.*?</div>', re.DOTALL)
+new_content = pattern.sub(full_strip, content)
+
+with open(html_path, 'w', encoding='utf-8') as file:
+    file.write(new_content)
+print('SUCCESS')
+: 
+Line |
+  23 |  . height: 55px; width: auto; object-fit: contain; max-width: 120px;\">'
+     |                                                                     ~~~~
+     | The term '\>'
+html_right += '</div>'
+
+full_strip = f'<div class=\logo-strip\ id=\logoStrip\>{html_left}{html_right}</div>'
+
+html_path = r'C:\Users\prsnl\.gemini\antigravity\brain\d1b69639-1940-4d3a-9d7d-b4963cb4837c\IIC_Certificate_Generator.html'
+with open(html_path, 'r', encoding='utf-8') as file:
+    content = file.read()
+
+# Replace the logo strip
+pattern = re.compile(r'<div class=\logo-strip\ id=\logoStrip\>.*?</div>', re.DOTALL)
+new_content = pattern.sub(full_strip, content)
+
+with open(html_path, 'w', encoding='utf-8') as file:
+    file.write(new_content)
+print('SUCCESS')
+' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+

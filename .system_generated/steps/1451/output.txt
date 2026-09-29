@@ -1,0 +1,23 @@
+The following changes were made by the replace_file_content tool to: C:\Users\prsnl\.gemini\antigravity\brain\d1b69639-1940-4d3a-9d7d-b4963cb4837c\IIC_Certificate_Generator.html. If relevant, proactively run terminal commands to execute this code for the USER. Don't ask for permission.
+[diff_block_start]
+@@ -613,6 +613,17 @@
+       document.querySelectorAll('.role-btn').forEach(btn => btn.classList.remove('active'));
+       event.target.classList.add('active');
+     }
++
++    function loadLogo(event, imgId) {
++      const file = event.target.files[0];
++      if (file) {
++        const reader = new FileReader();
++        reader.onload = function(e) {
++          document.getElementById(imgId).src = e.target.result;
++        };
++        reader.readAsDataURL(file);
++      }
++    }
+   </script>
+ </body>
+ </html>
+[diff_block_end]
+
+Please note that the above snippet only shows the MODIFIED lines from the last change. It shows up to 3 lines of unchanged lines before and after the modified lines. The actual file contents may have many more lines not shown.

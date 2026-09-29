@@ -1,0 +1,15 @@
+
+The command exited with code 0.
+Output:
+350: .sig-line {
+356: .sig-title {
+365: .sig-org {
+554: <!-- 6. Signatories (Student Convener & President) -->
+558: <div class="sig-line"></div>
+559: <div class="sig-title">Student Convener</div>
+560: <div class="sig-org">ACE Engineering College</div>
+563: <!-- Right Signatory: President / Head of Institution -->
+565: <div class="sig-line"></div>
+566: <div class="sig-title">President / Head of Institution</div>
+567: <div class="sig-org">ACE Engineering College</div>
+

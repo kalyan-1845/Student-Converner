@@ -1,0 +1,5 @@
+
+The command exited with code 0.
+Output:
+272d273c272d2721272d2744272d274f272d2743
+

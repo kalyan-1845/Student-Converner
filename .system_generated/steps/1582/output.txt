@@ -1,0 +1,19 @@
+
+The command exited with code 0.
+Output:
+350: .sig-line {
+356: .sig-title {
+365: .sig-org {
+407: <button class="role-btn active" onclick="setRole('convener')">Student Convener</button>
+457: Student Convener (IIC)
+554: <!-- 6. Signatories (Student Convener & President) -->
+556: <!-- Left Signatory: Student Convener -->
+558: <div class="sig-line"></div>
+559: <div class="sig-title">Student Convener</div>
+560: <div class="sig-org">ACE Engineering College</div>
+563: <!-- Right Signatory: President / Head of Institution -->
+565: <div class="sig-line"></div>
+566: <div class="sig-title">Vice Principal</div>
+567: <div class="sig-org">ACE Engineering College</div>
+575: role: "Student Convener (IIC)",
+

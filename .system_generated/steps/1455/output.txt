@@ -1,0 +1,18 @@
+
+The command exited with code 0.
+Output:
+# ace.png
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAyAAAADfCAIAAACBPiBuAAAQAE... length: 76372
+# aictc.jpg
+data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQ... length: 147656
+# innovation ambassodor.png
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAb8AAAG/CAIAAABHcU4lAAAQAE... length: 318700
+# moe.png
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAhMAAAF4CAIAAABhGux3AAAQAE... length: 45396
+# my team logo.jpg
+data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/4gHYSUNDX1BST0ZJTEUAAQ... length: 201152
+# naac.png
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAZAAAADhCAIAAABp1HRLAAAQAE... length: 122796
+# nma.png
+data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAALUAAACCCAYAAAAALIm8AAAAAX... length: 36652
+

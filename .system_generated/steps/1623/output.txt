@@ -1,0 +1,39 @@
+
+The command exited with code 0.
+Output:
+13: --gold-main: #c59b27;
+14: --gold-light: #f3df8a;
+15: --gold-dark: #8c6814;
+128: /* Multi-layered Gold and Navy Borders */
+132: border: 3px solid var(--gold-main);
+139: border: 1px dashed var(--gold-dark);
+155: border-color: var(--gold-main);
+158: .corner-tl { top: 18px; left: 18px; border-top: 5px solid var(--gold-main); border-left: 5px solid v
+159: .corner-tr { top: 18px; right: 18px; border-top: 5px solid var(--gold-main); border-right: 5px solid
+160: .corner-bl { bottom: 18px; left: 18px; border-bottom: 5px solid var(--gold-main); border-left: 5px s
+161: .corner-br { bottom: 18px; right: 18px; border-bottom: 5px solid var(--gold-main); border-right: 5px
+200: color: var(--gold-dark);
+219: border-bottom: 2px solid var(--gold-main);
+253: border-bottom: 1.5px solid var(--gold-main);
+263: color: var(--gold-dark);
+313: /* Central Gold Seal */
+314: .seal-wrap {
+326: .gold-seal-svg {
+437: <div class="logo-strip" id="logoStrip" style="display:flex; justify-content:space-between; align-ite
+478: <!-- 5. Central Official Seal -->
+479: <div class="seal-wrap">
+480: <svg class="gold-seal-svg" width="94" height="116" viewBox="0 0 120 148" fill="none" xmlns="http://w
+482: <!-- Rich radial gold gradient for seal body -->
+483: <radialGradient id="gold-body" cx="38%" cy="32%" r="68%">
+490: <!-- Ribbon Gradients -->
+491: <linearGradient id="ribbon-l" x1="0%" y1="0%" x2="100%" y2="100%">
+496: <linearGradient id="ribbon-r" x1="100%" y1="0%" x2="0%" y2="100%">
+508: <!-- Satin V-cut Ribbons -->
+510: <!-- Left Ribbon tail -->
+511: <path d="M 46 64 L 28 140 L 46 125 L 62 140 L 55 64 Z" fill="url(#ribbon-l)" />
+512: <!-- Right Ribbon tail -->
+513: <path d="M 65 64 L 58 140 L 74 125 L 92 140 L 74 64 Z" fill="url(#ribbon-r)" opacity="0.95" />
+516: <!-- Seal Medallion Body -->
+528: " fill="url(#gold-body)" stroke="#784f07" stroke-width="1.2" />
+537: <!-- Seal Typography & Heraldry Emblem -->
+

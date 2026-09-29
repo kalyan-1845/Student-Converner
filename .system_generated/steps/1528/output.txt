@@ -1,0 +1,29 @@
+
+The command exited with code 0.
+Output:
+<truncated 12 lines>
+439: <!-- 2. Institution Header & Certificate Type -->
+442: <div class="council-title">Institution�s Innovation Council (IIC)</div>
+456: <div class="recipient-role" id="display-role" contenteditable="true">
+457: Student Convener � Institution�s Innovation Council (IIC)
+460: <p class="citation-text" id="display-citation">
+461: In recognition of dedicated leadership, coordination, and valuable contribution to the activities and initiatives of the <strong>Institution�s Innovation Council</strong>, and for successfully supporting and coordinating the IIC student team during the <strong>one-year tenure</strong>. Your commitment and active involvement in promoting innovation, entrepreneurship, creativity, and student participation are sincerely appreciated.
+474: <b>Certificate No.:</b> <span contenteditable="true" spellcheck="false">ACE/IIC/2025-26/______</span>
+563: <!-- Right Signatory: President / Head of Institution -->
+566: <div class="sig-title">President / Head of Institution</div>
+573: const roleData = {
+575: role: "Student Convener � Institution�s Innovation Council (IIC)",
+576: citation: "In recognition of dedicated leadership, coordination, and valuable contribution to the activities and initiatives of the <strong>Institution�s Innovation Council</strong>, and for successfully supporting and coordinating the IIC student team during the <strong>one-year tenure</strong>. Your commitment and active involvement in promoting innovation, entrepreneurship, creativity, and student participation are sincerely appreciated."
+579: role: "Startup Coordinator � Institution�s Innovation Council (IIC)",
+580: citation: "In recognition of dedicated service and valuable contribution to the <strong>Institution�s Innovation Council</strong> during the <strong>one-year tenure</strong>, supporting activities related to entrepreneurship, startup awareness, ideation, innovation, and entrepreneurial engagement among students. Your active involvement and contribution towards developing an entrepreneurial mindset among students are sincerely appreciated."
+583: role: "Innovation Coordinator � Institution�s Innovation Council (IIC)",
+584: citation: "In recognition of dedicated service and valuable contribution to the <strong>Institution�s Innovation Council</strong> during the <strong>one-year tenure</strong>, supporting initiatives that encouraged innovation, creativity, ideation, problem-solving, and student participation in innovation-oriented activities. Your enthusiasm and contribution towards fostering an innovation-driven environment are sincerely appreciated."
+587: role: "IPR Coordinator � Institution�s Innovation Council (IIC)",
+588: citation: "In recognition of dedicated service and valuable contribution to the <strong>Institution�s Innovation Council</strong> during the <strong>one-year tenure</strong>, with active involvement in promoting awareness and understanding of Intellectual Property Rights, innovation, creativity, and knowledge protection among students. Your commitment and contribution towards strengthening the culture of innovation are sincerely appreciated."
+591: role: "Social Media Coordinator � Institution�s Innovation Council (IIC)",
+592: citation: "In recognition of dedicated service and valuable contribution to the <strong>Institution�s Innovation Council</strong> during the <strong>one-year tenure</strong>, supporting the communication and digital promotion of IIC activities, events, initiatives, achievements, and student participation. Your consistent efforts in strengthening the digital presence and outreach of the Institution�s Innovation Council are sincerely appreciated."
+597: const data = roleData[key];
+599: document.getElementById('display-role').innerHTML = data.role;
+600: document.getElementById('display-citation').innerHTML = data.citation;
+602: document.querySelectorAll('.role-btn').forEach(btn => btn.classList.remove('active'));
+

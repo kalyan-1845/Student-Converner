@@ -1,0 +1,10 @@
+
+The command exited with code 0.
+Output:
+
+IIC_Certificate_Generator.html:6:  <title>Certificate of Appreciation - ACE Engineering College IIC</title>
+IIC_Certificate_Generator.html:442:      <div class="college-name">ACE Engineering College</div>
+IIC_Certificate_Generator.html:561:        <div class="sig-org">ACE Engineering College</div>
+IIC_Certificate_Generator.html:568:        <div class="sig-org">ACE Engineering College</div>
+
+

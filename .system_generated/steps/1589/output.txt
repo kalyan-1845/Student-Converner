@@ -1,0 +1,8 @@
+
+The command exited with code 1.
+Output:
+  File "<string>", line 6
+    match = re.search(r'<div class=\
+                      ^
+SyntaxError: unterminated string literal (detected at line 6)
+

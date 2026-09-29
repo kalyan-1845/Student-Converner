@@ -1,0 +1,27 @@
+
+The command exited with code 0.
+Output:
+<truncated 3 lines>
+
+    <!-- 2. Institution Header & Certificate Type -->
+    <div class="header-section">
+      <div class="college-name">ACE Engineering College</div>
+      <div class="council-title">Institution's Innovation Council (IIC)</div>
+      <div class="cert-heading-wrap">
+        <div class="cert-title">Certificate of Appreciation</div>
+      </div>
+    </div>
+
+    <!-- 3. Body Content Area -->
+    <div class="body-section">
+      <p class="presentation-line">This Certificate is proudly presented to</p>
+
+      <div class="recipient-name-block">
+        <div class="recipient-name" contenteditable="true" spellcheck="false">[Student Full Name]</div>
+      </div>
+
+      <div class="recipient-role" id="display-role" contenteditable="true">
+        Student Convener - Institution's Innovation Council (IIC)
+      </div>
+
+

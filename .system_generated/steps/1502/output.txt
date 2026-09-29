@@ -1,0 +1,8 @@
+
+The command exited with code 0.
+Output:
+Size: 400x225
+Color at left edge (0, h/2): (0, 0, 0, 255)
+Color at middle (w/2, h/2): (55, 35, 34, 255)
+Suggested crop box: (50, 0, 349, 225)
+

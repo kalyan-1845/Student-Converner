@@ -1,0 +1,36 @@
+
+The command exited with code 1.
+Output:
+gap:15px: 
+Line |
+   9 |  . goStrip\">.*?)</div></div><div style=\"display:flex; gap:15px; align- .
+     |                                                         ~~~~~~~~
+     | The term 'gap:15px' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+align-items:center: 
+Line |
+   9 |  . </div><div style=\"display:flex; gap:15px; align-items:center;\">.*?< .
+     |                                               ~~~~~~~~~~~~~~~~~~
+     | The term 'align-items:center' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+\>.*?</div></div>(\s*<!-- 2\. Institution Header & Certificate Type -->)', re.DOTALL)
+
+new_content = pattern.sub(r'\1</div>\2', content)
+
+with open(html_path, 'w', encoding='utf-8') as f:
+    f.write(new_content)
+print('FIXED')
+: 
+Line |
+   9 |  . tems:center;\">.*?</div></div>(\s*<!-- 2\. Institution Header & Certi .
+     |                ~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+     | The term '\>.*?</div></div>(\s*<!-- 2\. Institution Header & Certificate Type -->)', re.DOTALL)
+
+new_content = pattern.sub(r'\1</div>\2', content)
+
+with open(html_path, 'w', encoding='utf-8') as f:
+    f.write(new_content)
+print('FIXED')
+' is not recognized as a name of a cmdlet, function, script file, or executable program.
+Check the spelling of the name, or if a path was included, verify that the path is correct and try again.
+

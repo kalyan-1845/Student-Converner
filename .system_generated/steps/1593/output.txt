@@ -1,0 +1,21 @@
+
+The command exited with code 1.
+Output:
+540: 
+541:           <!-- Center Embellished Star -->
+542:           <polygon points="60,41.5 62.4,47 68.2,47.4 63.8,51.2 65.2,56.8 60,53.8 54.8,56.8 56.2,51.2 51.8,47.4 57.6,47" fill="#382103" />
+543: 
+544:           <!-- Middle & Bottom Titles (Properly proportioned with zero clipping) -->
+545:           <text x="60" y="66" text-anchor="middle" font-family="'Cinzel', serif" font-size="6.8" font-weight="800" fill="#382103" letter-spacing="1.1">INNOVATION</text>
+546:           <text x="60" y="75" text-anchor="middle" font-family="'Cinzel', serif" font-size="6.2" font-weight="800" fill="#382103" letter-spacing="1.4">COUNCIL</text>
+547: 
+548:           <!-- Bottom Micro Stars Accent -->
+Traceback (most recent call last):
+  File "C:\Users\prsnl\.gemini\antigravity\brain\d1b69639-1940-4d3a-9d7d-b4963cb4837c\show_sigs.py", line 6, in <module>
+    print(f"{i}: {lines[i].rstrip()}")
+    ~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\prsnl\AppData\Local\Python\pythoncore-3.14-64\Lib\encodings\cp1252.py", line 19, in encode
+    return codecs.charmap_encode(input,self.errors,encoding_table)[0]
+           ~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+UnicodeEncodeError: 'charmap' codec can't encode character '\u2605' in position 104: character maps to <undefined>
+

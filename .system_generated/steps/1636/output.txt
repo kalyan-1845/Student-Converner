@@ -1,0 +1,9 @@
+
+The command exited with code 0.
+Output:
+NAME FIXED
+[main 871a971] Fix typo in Principal's name (Balaraju)
+ 1 file changed, 1 insertion(+), 1 deletion(-)
+To https://github.com/kalyan-1845/Student-Converner.git
+   56e1891..871a971  main -> main
+
