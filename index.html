@@ -480,7 +480,7 @@
         localStorage.setItem('iic_cert_count', count.toString());
         
         const formattedNum = String(count).padStart(3, '0');
-        let certId = ACE/IIC/2025-26/;
+        let certId = `ACE/IIC/2025-26/${formattedNum}`;
         
         // 2. Inject Data into Certificate DOM
         status.innerText = 'Generating Certificate ' + certId + '...';
@@ -508,7 +508,7 @@
         
         const opt = {
           margin:       0,
-          filename:     IIC_Certificate_.pdf,
+          filename:     `IIC_Certificate_${name.replace(/\s+/g, '_')}.pdf`,
           image:        { type: 'jpeg', quality: 1.0 },
           html2canvas:  { scale: 3, useCORS: true, logging: false },
           jsPDF:        { unit: 'in', format: 'a4', orientation: 'landscape' }
@@ -738,7 +738,7 @@
         localStorage.setItem('iic_cert_count', count.toString());
         
         const formattedNum = String(count).padStart(3, '0');
-        let certId = ACE/IIC/2025-26/;
+        let certId = `ACE/IIC/2025-26/${formattedNum}`;
         
         // 2. Inject Data into Certificate DOM
         status.innerText = 'Generating Certificate ' + certId + '...';
@@ -766,7 +766,7 @@
         
         const opt = {
           margin:       0,
-          filename:     IIC_Certificate_.pdf,
+          filename:     `IIC_Certificate_${name.replace(/\s+/g, '_')}.pdf`,
           image:        { type: 'jpeg', quality: 1.0 },
           html2canvas:  { scale: 3, useCORS: true, logging: false },
           jsPDF:        { unit: 'in', format: 'a4', orientation: 'landscape' }
