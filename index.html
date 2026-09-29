@@ -495,11 +495,13 @@
         
         // Update Cert ID (Find the span inside meta-details)
         const spans = document.querySelectorAll('.meta-details span');
-        if(spans.length >= 2) {
-          spans[0].innerText = certId;
-          // Set date to today
-          const dateOpts = { year: 'numeric', month: 'long', day: 'numeric' };
-          spans[1].innerText = new Date().toLocaleDateString('en-US', dateOpts);
+        if(spans.length >= 3) {
+          // spans[0] is Duration
+          spans[0].innerText = 'One Year';
+          // spans[1] is Academic Year
+          spans[1].innerText = '2025-2026';
+          // spans[2] is Certificate No
+          spans[2].innerText = certId;
         }
         
         // 3. Trigger Download via html2pdf
@@ -753,11 +755,13 @@
         
         // Update Cert ID (Find the span inside meta-details)
         const spans = document.querySelectorAll('.meta-details span');
-        if(spans.length >= 2) {
-          spans[0].innerText = certId;
-          // Set date to today
-          const dateOpts = { year: 'numeric', month: 'long', day: 'numeric' };
-          spans[1].innerText = new Date().toLocaleDateString('en-US', dateOpts);
+        if(spans.length >= 3) {
+          // spans[0] is Duration
+          spans[0].innerText = 'One Year';
+          // spans[1] is Academic Year
+          spans[1].innerText = '2025-2026';
+          // spans[2] is Certificate No
+          spans[2].innerText = certId;
         }
         
         // 3. Trigger Download via html2pdf
