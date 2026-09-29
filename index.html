@@ -469,9 +469,6 @@
       };
       
       if(colors[roleKey]) {
-        // html2canvas has a known bug with dynamic CSS variables.
-        // To force the entire certificate (borders, corners, lines) to change color,
-        // we inject a bulletproof <style> block right before generation!
         let styleTag = document.getElementById('dynamic-colors');
         if(!styleTag) {
           styleTag = document.createElement('style');
@@ -479,20 +476,19 @@
           document.head.appendChild(styleTag);
         }
         
-        styleTag.innerHTML = 
-          .certificate-container { border-color:  !important; }
-          .inner-border { border-color:  !important; }
-          .cert-title { border-bottom-color:  !important; }
-          .recipient-name { border-bottom-color:  !important; }
-          .recipient-role { color:  !important; }
-          .corner-tl { border-top-color:  !important; border-left-color:  !important; }
-          .corner-tr { border-top-color:  !important; border-right-color:  !important; }
-          .corner-bl { border-bottom-color:  !important; border-left-color:  !important; }
-          .corner-br { border-bottom-color:  !important; border-right-color:  !important; }
-        ;
+        styleTag.innerHTML = `
+          .certificate-container { border-color: ${colors[roleKey].main} !important; }
+          .inner-border { border-color: ${colors[roleKey].main} !important; }
+          .cert-title { border-bottom-color: ${colors[roleKey].main} !important; }
+          .recipient-name { border-bottom-color: ${colors[roleKey].main} !important; }
+          .recipient-role { color: ${colors[roleKey].dark} !important; }
+          .corner-tl { border-top-color: ${colors[roleKey].main} !important; border-left-color: ${colors[roleKey].main} !important; }
+          .corner-tr { border-top-color: ${colors[roleKey].main} !important; border-right-color: ${colors[roleKey].main} !important; }
+          .corner-bl { border-bottom-color: ${colors[roleKey].main} !important; border-left-color: ${colors[roleKey].main} !important; }
+          .corner-br { border-bottom-color: ${colors[roleKey].main} !important; border-right-color: ${colors[roleKey].main} !important; }
+        `;
         
-        // Also update the dashboard button just for a cool effect!
-        document.getElementById('generateBtn').style.background = linear-gradient(135deg, , );
+        document.getElementById('generateBtn').style.background = `linear-gradient(135deg, ${colors[roleKey].main}, ${colors[roleKey].dark})`;
       }
 
       const btn = document.getElementById('generateBtn');
