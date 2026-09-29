@@ -466,21 +466,15 @@
         status.style.color = '#f3df8a';
         status.innerText = 'Connecting to secure registry...';
         
-        // 1. Fetch official ID from Vercel Backend
-        // If testing locally without backend, it will gracefully fallback after failing
-        let certId = 'ACE/IIC/2025-26/000';
-        try {
-          const res = await fetch('/api/generate', { method: 'POST' });
-          const data = await res.json();
-          if (res.ok) {
-            certId = data.certId;
-          } else {
-            throw new Error(data.error || 'Server error');
-          }
-        } catch (e) {
-          console.warn('Backend not detected, using fallback ID');
-          certId = 'ACE/IIC/2025-26/001'; // Fallback for local testing
+        // 1. Offline Auto-Counter (No Database Required!)
+        let count = parseInt(localStorage.getItem('iic_cert_count') || '0') + 1;
+        if (count > 70) {
+          throw new Error('All 70 certificates have been generated!');
         }
+        localStorage.setItem('iic_cert_count', count.toString());
+        
+        const formattedNum = String(count).padStart(3, '0');
+        let certId = ACE/IIC/2025-26/;
         
         // 2. Inject Data into Certificate DOM
         status.innerText = 'Generating Certificate ' + certId + '...';
@@ -728,21 +722,15 @@
         status.style.color = '#f3df8a';
         status.innerText = 'Connecting to secure registry...';
         
-        // 1. Fetch official ID from Vercel Backend
-        // If testing locally without backend, it will gracefully fallback after failing
-        let certId = 'ACE/IIC/2025-26/000';
-        try {
-          const res = await fetch('/api/generate', { method: 'POST' });
-          const data = await res.json();
-          if (res.ok) {
-            certId = data.certId;
-          } else {
-            throw new Error(data.error || 'Server error');
-          }
-        } catch (e) {
-          console.warn('Backend not detected, using fallback ID');
-          certId = 'ACE/IIC/2025-26/001'; // Fallback for local testing
+        // 1. Offline Auto-Counter (No Database Required!)
+        let count = parseInt(localStorage.getItem('iic_cert_count') || '0') + 1;
+        if (count > 70) {
+          throw new Error('All 70 certificates have been generated!');
         }
+        localStorage.setItem('iic_cert_count', count.toString());
+        
+        const formattedNum = String(count).padStart(3, '0');
+        let certId = ACE/IIC/2025-26/;
         
         // 2. Inject Data into Certificate DOM
         status.innerText = 'Generating Certificate ' + certId + '...';

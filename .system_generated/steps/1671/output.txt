@@ -1,0 +1,11 @@
+
+The command exited with code 0.
+Output:
+C:\Users\prsnl\.gemini\antigravity\brain\d1b69639-1940-4d3a-9d7d-b4963cb4837c\process_sig.py:22: DeprecationWarning: Image.Image.getdata is deprecated and will be removed in Pillow 14 (2027-10-15). Use get_flattened_data instead.
+  datas = img.getdata()
+SUCCESS
+[main c20b67f] Add digital signature for Ramesh Alladi
+ 1 file changed, 1 insertion(+)
+To https://github.com/kalyan-1845/Student-Converner.git
+   00ec318..c20b67f  main -> main
+
